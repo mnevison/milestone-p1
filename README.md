@@ -10,3 +10,8 @@ https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-num
 
 https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=You%20can%20use%20flexbox%20to,and%20flex%2Ddirection%3A%20column%20. - code for getting my footer and header spaced correctly
 
+https://codepen.io/cbracco/pen/kQmVGM - helped with getting footer to remain on the bottom of the page
+
+![debugging and testing - playing with the flex display to try and find a good alignment for this screen size](image-2.png)
+
+
