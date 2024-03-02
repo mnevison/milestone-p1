@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root{
-    --bg-primary: #000E19;
-    --bg-secondary: #043256;
+    --bg-primary: #011f37;
+    --bg-secondary: #06426f;
     --txt-primary: #21a4f0;
 }
 
@@ -20,6 +20,10 @@ body{
     background-color: var(--bg-primary);
     background-image: url(/assets/images/bg-image.jpg);
     background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 /* Header */
@@ -28,9 +32,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bg-secondary);
     height: 125px;
-    opacity: 50%;     
+    background-color: rgba(3, 46, 81, 0.5);     
        
 }
 
@@ -71,11 +74,42 @@ body{
 }
 
 .navbar a:hover{
-    color: var(--bg-primary);
+    color: var(--bg-secondary);
     border-bottom: 1px solid var(--bg-secondary);
 
 }
 
 .navbar a.active{
-    color: var(--bg-primary);
+    color: var(--bg-secondary);
+}
+
+/* Footer */
+
+footer{
+    margin-top: auto;
+    background-color: rgba(3, 46, 81, 0.5);  
+}
+.social-networks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 125px;
+    
+  }
+  
+  .social-networks li{
+    display: inline;
+  }
+  
+  .social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: var(--txt-primary);
+        
+  }
+
+  .social-networks i:hover{
+    color: var(--bg-secondary);
+
 }
