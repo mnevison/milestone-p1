@@ -4,6 +4,8 @@
     --bg-primary: #011f37;
     --bg-secondary: #06426f;
     --txt-primary: #21a4f0;
+    --txt-secondary: #B1D4E0; /* added 4th color as I found seeing
+     the others to be hard on background */
 }
 
 /* General Styling */
@@ -33,6 +35,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 125px;
+    /* opacity: 50%; <== removed and replaced with below to get a better
+     effect - color matches but text is clearer */
     background-color: rgba(3, 46, 81, 0.5);     
        
 }
@@ -52,7 +56,7 @@ body{
 }
 
 .title a:hover{
-    color: var(--bg-primary)
+    color: var(--bg-secondary)
 }
 
 .nav-container{
@@ -83,10 +87,65 @@ body{
     color: var(--bg-secondary);
 }
 
+/* Home - Body */
+
+.main-content{
+    margin: 100px 0 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.profile-image img{
+    height: 50vh;
+    width: 25vw;
+    border-radius: 50%;
+    border: 5px solid var(--txt-primary);
+    box-shadow: 7px 7px 5px 1px var(--bg-secondary);
+    margin-right: 20rem;
+
+}
+
+.profile-text{
+    min-height: 50vh;
+    padding: 1rem 9% 2rem;
+    
+}
+
+.profile-text h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--txt-primary);
+    margin-bottom: 1rem;
+}
+
+.profile-text span{
+    -webkit-text-fill-color: #06426f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--txt-primary);
+}
+
+.profile-text   h3{
+    font-size: 3rem;
+    font-weight: 500;
+    -webkit-text-fill-color: var(--txt-primary);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--txt-secondary);
+    margin-bottom: 1rem;
+}
+
+.profile-text p{
+    color: var(--txt-secondary);
+    font-size: 2rem;
+}
+
 /* Footer */
 
 footer{
     margin-top: auto;
+    /* opacity: 50%;  <== removed and replaced with
+     below to get a better effect - color matches but text is clearer */
     background-color: rgba(3, 46, 81, 0.5);  
 }
 .social-networks{
