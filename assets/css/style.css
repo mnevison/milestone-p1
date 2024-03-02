@@ -14,7 +14,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -52,7 +52,8 @@ body{
     font-size: 2.5rem;
     font-weight: 600;
     text-decoration: none;
-    color: var(--txt-primary)    
+    color: var(--txt-primary);
+    margin-left: 170px;    
 }
 
 .title a:hover{
@@ -79,18 +80,19 @@ body{
 
 .navbar a:hover{
     color: var(--bg-secondary);
-    border-bottom: 1px solid var(--bg-secondary);
+    border-bottom: 1px solid var(--txt-secondary);
 
 }
 
 .navbar a.active{
     color: var(--bg-secondary);
+    
 }
 
 /* Home - Body */
 
 .main-content{
-    margin: 100px 0 0 150px;
+    margin: 85px 0 0 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -109,12 +111,12 @@ body{
 
 .profile-text{
     min-height: 50vh;
-    padding: 1rem 9% 2rem;
+    padding: 0 9% 2rem;
     
 }
 
 .profile-text h2{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 600;
     color: var(--txt-primary);
     margin-bottom: 1rem;
@@ -127,18 +129,43 @@ body{
 }
 
 .profile-text   h3{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
-    -webkit-text-fill-color: var(--txt-primary);
+    -webkit-text-fill-color: #06426f;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-secondary);
-    margin-bottom: 1rem;
+    -webkit-text-stroke-color: var(--txt-primary);
+    margin: 1rem 1rem 1rem 0;
+    
 }
 
 .profile-text p{
     color: var(--txt-secondary);
     font-size: 2rem;
 }
+
+.tech-stack{
+    color: var(--txt-secondary);
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.tech-stack{
+    margin-top: 1rem;
+    font-weight: 700;
+    -webkit-text-fill-color: #06426f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--txt-primary);
+}
+
+.tech-logo li{
+    font-size: 4rem;
+    font-weight: 500;
+    display: inline;
+    color: var(--txt-secondary);
+    letter-spacing: 4rem;
+    
+}
+
 
 /* Footer */
 
