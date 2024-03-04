@@ -15,3 +15,7 @@ https://codepen.io/cbracco/pen/kQmVGM - helped with getting footer to remain on 
 ![debugging and testing - playing with the flex display to try and find a good alignment for this screen size](image-2.png)
 
 
+![debugging and testing best way to get my experince site to work - using either flex or grid](image-3.png)
+
+![see above](image-4.png)
+

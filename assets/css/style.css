@@ -50,14 +50,14 @@ body{
        
 }
 
-.title{
+/* .title{
     /* margin-top: 1rem;
     letter-spacing: 2px;
     margin-left: 10rem;
     
     I didn't care for this styling. Removed it to help with responsiveness */
     
-}
+
 
 .title a{
     font-size: 2.5rem;
@@ -227,3 +227,71 @@ footer{
     color: var(--bg-secondary);
 
 }
+
+/* Experience - Body */
+
+.experience{
+    color: var(--txt-secondary);
+    font-size: 1rem;
+}
+
+.exp-row{
+    justify-content: space-between;
+}
+
+.education{
+    width: 40%;
+    padding: 2rem;
+    border-left: 1px solid var(--txt-secondary);
+}
+
+.work{
+    width: 40%;
+    padding: 2rem;
+    border-left: 1px solid var(--txt-secondary);
+}
+
+.sub-heading{
+    color: var(--txt-primary);
+}
+
+.year{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.facility{
+    -webkit-text-fill-color: #06426f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--txt-primary);
+
+}
+
+
+.exp-title{
+    text-align: center;
+    padding: 3rem;
+}
+
+
+.page-header{
+    color: var(--txt-primary);
+}
+
+.page-header span{
+    -webkit-text-fill-color: #06426f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--txt-primary);
+
+}
+
+.sub-header{
+    text-align: center;
+    -webkit-text-fill-color: #06426f;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--txt-primary);
+}
+
+
+
