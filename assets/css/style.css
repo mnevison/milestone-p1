@@ -1,297 +1,322 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-:root{
-    --bg-primary: #011f37;
-    --bg-secondary: #06426f;
-    --txt-primary: #21a4f0;
-    --txt-secondary: #B1D4E0; /* added 4th color as I found seeing
+:root {
+  --bg-primary: #011f37;
+  --bg-secondary: #06426f;
+  --txt-primary: #21a4f0;
+  --txt-secondary: #b1d4e0; /* added 4th color as I found seeing
      the others to be hard on background */
 }
 
 /* General Styling */
 
-html{
-    height: 100%;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    /* box-sizing: border-box; */
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(/assets/images/bg-image.jpg);
+  background-size: cover;
 }
 
-body{
-    font-family: "Ubuntu", sans-serif;
-    background-image: url(/assets/images/bg-image.jpg);
-    background-repeat:no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
-    position: relative;
-    min-height: 100%;
-    
+/* Container used throughout the site - used to help responsiveness  */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 2px solid pink;
 }
 
 /* Header */
 
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 125px;
-    /* opacity: 50%; <== removed and replaced with below to get a better
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.8125rem;
+  /* opacity: 50%; <== removed and replaced with below to get a better
      effect - color matches but text is clearer */
-    background-color: rgba(3, 46, 81, 0.5);
-    width: auto;   
-       
+  background-color: rgba(3, 46, 81, 0.5);
 }
-
 /* .title{
     /* margin-top: 1rem;
     letter-spacing: 2px;
     margin-left: 10rem;
     
     I didn't care for this styling. Removed it to help with responsiveness */
-    
 
-
-.title a{
-    font-size: 2.5rem;
-    font-weight: 600;
-    text-decoration: none;
-    color: var(--txt-primary);
-    margin-left: 170px;    
+.title a {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--txt-primary);
+  margin-left: 8rem;
 }
 
-.title a:hover{
-    color: var(--bg-secondary)
+.title a:hover {
+  color: var(--bg-secondary);
 }
 
-.nav-container{
-    
-    text-align: center;
-    margin-right: 50px;
-    margin-top: 5px;
-       
+.nav-container {
+  text-align: center;
+  margin-right: 50px;
+  align-items: baseline;
 }
 
-.navbar a{
-    text-decoration: none;
-    letter-spacing: 2px;
-    margin-right: 15px;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--txt-primary)
-           
+.navbar a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--txt-primary);
 }
 
-.navbar a:hover{
-    color: var(--bg-secondary);
-    border-bottom: 1px solid var(--txt-secondary);
-
+.navbar a:hover {
+  color: var(--bg-secondary);
+  border-bottom: 1px solid var(--txt-secondary);
 }
 
-.navbar a.active{
-    color: var(--bg-secondary);
-    
+.navbar a.active {
+  color: var(--bg-secondary);
 }
 
 /* Home - Body */
 
-.main-content{
-    margin: 85px 0 0 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.profile-image img{
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    border: 5px solid var(--txt-primary);
-    box-shadow: 7px 7px 5px 1px var(--bg-secondary);
-    margin-right: 20rem;
-    position: relative;
-
+.profile__image {
+  height: 50dvh;
+  width: auto;
+  border-radius: 50%;
+  border: 5px solid var(--txt-primary);
+  box-shadow: 7px 7px 5px 1px var(--bg-secondary);
 }
 
-.profile-text{
-    min-height: 300px;
-    padding: 0 9% 2rem;
-    
+.profile-text p {
+  max-width: 60ch;
 }
 
-.profile-text h2{
-    font-size: 3rem;
-    font-weight: 600;
-    color: var(--txt-primary);
-    margin-bottom: 1rem;
+.profile-text h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--txt-primary);
+  margin-bottom: 1rem;
 }
 
-.profile-text span{
-    -webkit-text-fill-color: #06426f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-primary);
+.profile-text span {
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
 }
 
-.profile-text h3{
-    font-size: 2.5rem;
-    font-weight: 500;
-    -webkit-text-fill-color: #06426f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-primary);
-    margin: 1rem 1rem 1rem 0;
-    
+.profile-text h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
 }
 
-.profile-text p{
-    font-family: "Garamond", sans-serif;
-    color: var(--txt-secondary);
-    font-size: 2rem;
-    font-weight: 200;
-    padding: 20px 0;
+.profile-text p {
+  font-family: "Garamond", sans-serif;
+  color: var(--txt-secondary);
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 20px 0;
 }
 
-.tech-stack{
-    color: var(--txt-secondary);
-    font-size: 2rem;
-    display: inline-block;
+.tech-stack {
+  color: var(--txt-secondary);
+  font-size: 2rem;
+  display: inline-block;
 }
 
-h2{
-    font-size:2rem;
+h2 {
+  font-size: 2rem;
 }
 
-.tech-stack{
-    margin-top: 1rem;
-    font-weight: 700;
-    font-size: 40px;
-    -webkit-text-fill-color: #06426f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-primary);
+.tech-stack {
+  font-weight: 700;
+  font-size: 40px;
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
 }
 
-.tech-logo li{
-    font-size: 4rem;
-    font-weight: 500;
-    display: inline;
-    color: var(--txt-secondary);
-    letter-spacing: 4rem;
-    
+.tech-logo li {
+  font-size: 4rem;
+  font-weight: 500;
+  display: inline;
+  color: var(--txt-secondary);
+  letter-spacing: 4rem;
 }
-
 
 /* Footer */
 
-footer{
-    position: absolute;
-    margin-top: auto;
-    text-align: center;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    /* opacity: 50%;  <== removed and replaced with
+footer {
+  text-align: center;
+  /* right: 0;
+  bottom: 0;
+  left: 0; */
+  /* opacity: 50%;  <== removed and replaced with
      below to get a better effect - color matches but text is clearer */
-    background-color: rgba(3, 46, 81, 0.5);  
-    width: auto;
-
+  background-color: rgba(3, 46, 81, 0.5);
 }
-.social-networks{
+
+.social-networks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7.8125rem;
+  list-style: none;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: var(--txt-primary);
+}
+
+.social-networks i:hover {
+  color: var(--bg-secondary);
+}
+
+/* Home Media */
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+  .header {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    height: 125px;
-    
-}
-  
-  .social-networks li{
-    display: inline;
+    height: 6rem;
+  }
+  .title a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 2.5rem;
+    align-self: flex-start;
+  }
+  .navbar a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .profile__image {
+    display: none;
+  }
+  .main-content {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+  }
 
-}
-  
-  .social-networks i{
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: var(--txt-primary);
-        
+  .profile-text {
+    text-align: center;
+  }
+  .profile-text p {
+    font-size: 1rem;
+  }
+
+  .profile-text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .profile-text h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .tech-stack {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  .tech-logo li {
+    font-size: 2rem;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 1rem;
+  }
 }
 
-  .social-networks i:hover{
-    color: var(--bg-secondary);
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
 
 }
 
 /* Experience - Body */
 
-.experience{
-    color: var(--txt-secondary);
-    font-size: 1rem;
+.experience {
+  color: var(--txt-secondary);
+  font-size: 1rem;
 }
 
-.exp-row{
-    justify-content: space-between;
+.exp-row {
+  justify-content: space-between;
 }
 
-.education{
-    width: 40%;
-    padding: 2rem;
-    border-left: 1px solid var(--txt-secondary);
+.education {
+  width: 40%;
+  padding: 2rem;
+  border-left: 1px solid var(--txt-secondary);
 }
 
-.work{
-    width: 40%;
-    padding: 2rem;
-    border-left: 1px solid var(--txt-secondary);
+.work {
+  width: 40%;
+  padding: 2rem;
+  border-left: 1px solid var(--txt-secondary);
 }
 
-.sub-heading{
-    color: var(--txt-primary);
+.sub-heading {
+  color: var(--txt-primary);
 }
 
-.year{
-    font-weight: bold;
-    font-style: italic;
+.year {
+  font-weight: bold;
+  font-style: italic;
 }
 
-
-.facility{
-    -webkit-text-fill-color: #06426f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-primary);
-
+.facility {
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
 }
 
-
-.exp-title{
-    text-align: center;
-    padding: 3rem;
+.exp-title {
+  text-align: center;
+  padding: 3rem;
 }
 
-
-.page-header{
-    color: var(--txt-primary);
+.page-header {
+  color: var(--txt-primary);
 }
 
-.page-header span{
-    -webkit-text-fill-color: #06426f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-primary);
-
+.page-header span {
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
 }
 
-.sub-header{
-    text-align: center;
-    -webkit-text-fill-color: #06426f;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: var(--txt-primary);
+.sub-header {
+  text-align: center;
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
 }
-
-
-
