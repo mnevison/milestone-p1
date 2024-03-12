@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  --bg-primary: #011f37;
+  --bg-secondary: #06426f;
+  --txt-primary: #21a4f0;
+  --txt-secondary: #b1d4e0; /* added 4th color as I found seeing
+     the others to be hard on background */
+}
+
+/* General Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(/assets/images/bg-image.jpg);
+  background-size: cover;
+}
+
+/* Container used throughout the site - used to help responsiveness  */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7.8125em;
+  background-color: rgba(3, 46, 81, 0.5);
+}
+
+.title a {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--txt-primary);
+  margin-left: 8rem;
+}
+
+.title a:hover {
+  color: var(--bg-secondary);
+}
+
+.nav-container {
+  text-align: center;
+  margin-right: 4em;
+  align-items: baseline;
+}
+
+.navbar a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--txt-primary);
+}
+
+.navbar a:hover {
+  color: var(--bg-secondary);
+}
+
+.navbar a.active {
+  color: var(--bg-secondary);
+}
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: rgba(3, 46, 81, 0.5);
+}
+
+.social-networks {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7.8125em;
+  list-style: none;
+}
+
+.social-networks i {
+  font-size: 1.75rem;
+  margin: 1%;
+  padding: 5%;
+  color: var(--txt-primary);
+}
+
+.social-networks i:hover {
+  color: var(--bg-secondary);
+}

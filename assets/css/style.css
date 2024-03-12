@@ -1,99 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
-
-:root {
-  --bg-primary: #011f37;
-  --bg-secondary: #06426f;
-  --txt-primary: #21a4f0;
-  --txt-secondary: #b1d4e0; /* added 4th color as I found seeing
-     the others to be hard on background */
-}
-
-/* General Styling */
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Ubuntu", sans-serif;
-  background-image: url(/assets/images/bg-image.jpg);
-  background-size: cover;
-}
-
-/* Container used throughout the site - used to help responsiveness  */
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  border: 2px solid pink;
-}
-
-/* Header */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 7.8125rem;
-  /* opacity: 50%; <== removed and replaced with below to get a better
-     effect - color matches but text is clearer */
-  background-color: rgba(3, 46, 81, 0.5);
-}
-/* .title{
-    /* margin-top: 1rem;
-    letter-spacing: 2px;
-    margin-left: 10rem;
-    
-    I didn't care for this styling. Removed it to help with responsiveness */
-
-.title a {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--txt-primary);
-  margin-left: 8rem;
-}
-
-.title a:hover {
-  color: var(--bg-secondary);
-}
-
-.nav-container {
-  text-align: center;
-  margin-right: 50px;
-  align-items: baseline;
-}
-
-.navbar a {
-  text-decoration: none;
-  letter-spacing: 2px;
-  padding-right: 1rem;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: var(--txt-primary);
-}
-
-.navbar a:hover {
-  color: var(--bg-secondary);
-  border-bottom: 1px solid var(--txt-secondary);
-}
-
-.navbar a.active {
-  color: var(--bg-secondary);
-}
-
 /* Home - Body */
 
 .main-content {
+  margin-top: 6em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: rgba(177, 212, 224, 0.2);
 }
 
 .profile__image {
@@ -104,12 +16,8 @@ body {
   box-shadow: 7px 7px 5px 1px var(--bg-secondary);
 }
 
-.profile-text p {
-  max-width: 60ch;
-}
-
 .profile-text h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: var(--txt-primary);
   margin-bottom: 1rem;
@@ -122,7 +30,7 @@ body {
 }
 
 .profile-text h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 500;
   -webkit-text-fill-color: #06426f;
   -webkit-text-stroke-width: 2px;
@@ -132,9 +40,10 @@ body {
 .profile-text p {
   font-family: "Garamond", sans-serif;
   color: var(--txt-secondary);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 200;
-  padding: 20px 0;
+  padding: 1rem 0;
+  max-width: 60ch;
 }
 
 .tech-stack {
@@ -156,136 +65,44 @@ h2 {
 }
 
 .tech-logo li {
-  font-size: 4rem;
+  font-size: 3em;
   font-weight: 500;
   display: inline;
   color: var(--txt-secondary);
-  letter-spacing: 4rem;
-}
-
-/* Footer */
-
-footer {
-  text-align: center;
-  /* right: 0;
-  bottom: 0;
-  left: 0; */
-  /* opacity: 50%;  <== removed and replaced with
-     below to get a better effect - color matches but text is clearer */
-  background-color: rgba(3, 46, 81, 0.5);
-}
-
-.social-networks {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 7.8125rem;
-  list-style: none;
-}
-
-.social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: var(--txt-primary);
-}
-
-.social-networks i:hover {
-  color: var(--bg-secondary);
-}
-
-/* Home Media */
-@media screen and (min-width: 320px) {
-  .container {
-    max-width: 320px;
-  }
-  .header {
-    display: flex;
-    justify-content: space-evenly;
-    height: 6rem;
-  }
-  .title a {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-decoration: none;
-    padding-right: 2.5rem;
-    align-self: flex-start;
-  }
-  .navbar a {
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-size: 1rem;
-    font-weight: 400;
-  }
-  .profile__image {
-    display: none;
-  }
-  .main-content {
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .profile-text {
-    text-align: center;
-  }
-  .profile-text p {
-    font-size: 1rem;
-  }
-
-  .profile-text h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-  .profile-text h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-  .tech-stack {
-    font-weight: 700;
-    font-size: 1rem;
-  }
-  .tech-logo li {
-    font-size: 2rem;
-    font-weight: 500;
-    display: inline-block;
-    letter-spacing: 1rem;
-  }
-}
-
-@media (min-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-
+  letter-spacing: 2em;
 }
 
 /* Experience - Body */
 
-.experience {
-  color: var(--txt-secondary);
-  font-size: 1rem;
+.wrapper {
+  margin-block: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(177, 212, 224, 0.2);
 }
 
-.exp-row {
-  justify-content: space-between;
-}
-
-.education {
-  width: 40%;
-  padding: 2rem;
-  border-left: 1px solid var(--txt-secondary);
-}
-
-.work {
-  width: 40%;
-  padding: 2rem;
-  border-left: 1px solid var(--txt-secondary);
+.exp__header {
+  display: flex;
+  justify-content: center;
 }
 
 .sub-heading {
+  text-align: center;
+  margin-bottom: 2em;
   color: var(--txt-primary);
+}
+
+.exp-content {
+  display: block;
+  width: 50ch;
+}
+
+.exp-content h2 {
+  color: var(--txt-primary);
+}
+
+.exp-content p {
+  color: var(--txt-secondary);
 }
 
 .year {
@@ -300,8 +117,8 @@ footer {
 }
 
 .exp-title {
-  text-align: center;
-  padding: 3rem;
+  align-self: center;
+  padding: 0.5em;
 }
 
 .page-header {
