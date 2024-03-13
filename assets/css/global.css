@@ -9,6 +9,7 @@
 
 /* General Styling */
 
+
 * {
   margin: 0;
   padding: 0;
@@ -103,4 +104,36 @@ body {
 
 .social-networks i:hover {
   color: var(--bg-secondary);
+}
+
+@media (max-width: 425px) {
+  .header {
+    flex-direction: column;
+    padding-top: 1em;
+  }
+  .title a {
+    font-size: 2rem;
+    padding-bottom: 2em;
+    margin: 0;
+  }
+  .nav-container {
+    margin: 0;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding-top: 1em;
+  }
+  .title a {
+    font-size: 2rem;
+    padding-bottom: 2em;
+    margin: 0;
+  }
+  .nav-container {
+    margin: 0;
+  }
+ 
 }

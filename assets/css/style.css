@@ -52,10 +52,6 @@
   display: inline-block;
 }
 
-h2 {
-  font-size: 2rem;
-}
-
 .tech-stack {
   font-weight: 700;
   font-size: 40px;
@@ -70,6 +66,62 @@ h2 {
   display: inline;
   color: var(--txt-secondary);
   letter-spacing: 2em;
+}
+
+/* Home - Media */
+
+@media (max-width: 425px) {
+  img {
+    display: none;
+  }
+  .profile-text h2 {
+    font-size: 2rem;
+  }
+  .profile-text span {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    margin-top: 4em;
+    flex-direction: column;
+    align-items: normal;
+  }
+  .profile-text p {
+    font-size: 1.25rem;
+    max-width: 25ch;
+  }
+  .tech-logo li {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  img {
+    display: none;
+  }
+  .profile-text h2 {
+    font-size: 2rem;
+  }
+  .profile-text span {
+    font-size: 2rem;
+  }
+
+  .main-content {
+    margin-top: 4em;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-text p {
+    font-size: 1.25rem;
+    max-width: 25ch;
+  }
+  .tech-logo li {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 948px){
+  img{
+    display: none;
+  }
 }
 
 /* Experience - Body */
@@ -137,6 +189,16 @@ h2 {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--txt-primary);
 }
+
+/* Experience - Media */
+
+@media (max-width:425px){
+  .wrapper{
+    flex-direction: column;
+    margin: 0;
+  }
+}
+
 
 /* Projects - Body */
 
@@ -227,6 +289,15 @@ card p {
   text-decoration: none;
 }
 
+/* Projects - Media */
+
+@media (max-width:425px){
+  .project-content{
+    flex-direction: column;
+  }
+}
+
+
 /* Contact - Body  */
 
 .contact-heading {
@@ -316,4 +387,12 @@ input[type="submit"] {
   background-color: var(--bg-secondary);
   color: var(--txt-secondary);
   border-radius: 0.5em;
+}
+
+/* Contact - Media */
+
+@media (max-width:425px){
+  .contact-wrapper{
+    flex-direction: column;
+  }
 }
