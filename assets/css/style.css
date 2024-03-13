@@ -226,3 +226,94 @@ card p {
   -webkit-text-stroke-color: var(--txt-primary);
   text-decoration: none;
 }
+
+/* Contact - Body  */
+
+.contact-heading {
+  display: flex;
+  color: var(--txt-primary);
+  justify-content: center;
+  padding-block: 2em;
+}
+
+.contact-heading span {
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-box {
+  background-color: rgba(3, 46, 81, 0.3);
+  text-align: center;
+  border-radius: 0.5em;
+  padding: 2em;
+}
+
+.contact-box h2 {
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.contact-box ul {
+  list-style-type: none;
+}
+.contact-box ul li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--txt-primary);
+}
+
+.contact-box p {
+  font-size: 1.5rem;
+  color: var(--txt-secondary);
+  padding-block: 1em;
+}
+
+.contact-box a {
+  color: var(--txt-primary);
+  font-size: 2rem;
+}
+
+.contact-box a:hover {
+  color: var(--txt-secondary);
+}
+
+.form-container {
+  background-color: rgba(3, 46, 81, 0.3);
+  color: var(--txt-primary);
+  font-size: 1.5rem;
+  padding: 2em;
+  border-radius: 0.5em;
+}
+
+input[type="text"] {
+  min-width: 100%;
+  height: 2em;
+}
+
+input[type="email"] {
+  min-width: 100%;
+  height: 2em;
+}
+
+input[type="textarea"] {
+  min-width: 100%;
+  height: 2em;
+}
+
+input[type="submit"] {
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--bg-secondary);
+  color: var(--txt-secondary);
+  border-radius: 0.5em;
+}
