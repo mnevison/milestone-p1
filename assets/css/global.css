@@ -4,8 +4,7 @@
   --bg-primary: #011f37;
   --bg-secondary: #06426f;
   --txt-primary: #21a4f0;
-  --txt-secondary: #b1d4e0; /* added 4th color as I found seeing
-     the others to be hard on background */
+  --txt-secondary: #b1d4e0;
 }
 
 /* General Styling */
@@ -48,7 +47,7 @@ body {
   font-weight: 600;
   text-decoration: none;
   color: var(--txt-primary);
-  margin-left: 8rem;
+  margin-left: 3em;
 }
 
 .title a:hover {
