@@ -18,7 +18,13 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-image: url(/assets/images/bg-image.jpg);
+  /* background-image: url(/assets/images/bg-image.jpg); */
+  background: linear-gradient(
+    33deg,
+    rgba(1, 31, 55, 1) 24%,
+    rgba(6, 66, 111, 1) 58%,
+    rgba(33, 164, 240, 1) 99%
+  );
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -60,7 +66,7 @@ body {
 }
 
 .title a:hover {
-  color: var(--bg-secondary);
+  color: var(--txt-secondary);
 }
 
 .nav-container {
@@ -79,11 +85,11 @@ body {
 }
 
 .navbar a:hover {
-  color: var(--bg-secondary);
+  color: var(--txt-secondary);
 }
 
 .navbar a.active {
-  color: var(--bg-secondary);
+  color: var(--txt-secondary);
 }
 
 /* Footer */
@@ -110,7 +116,7 @@ body {
 }
 
 .social-networks i:hover {
-  color: var(--bg-secondary);
+  color: var(--txt-secondary);
 }
 
 @media (max-width: 425px) {
