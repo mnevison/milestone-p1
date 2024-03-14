@@ -33,6 +33,12 @@ body {
   padding-right: 0.5rem;
 }
 
+.color-wrapper{
+  border-radius: .5em;
+  padding: 1em;
+  background-color: rgba(3, 46, 81, 0.3);
+}
+
 /* Header */
 
 .header {

@@ -2,7 +2,7 @@
 
 https://stackoverflow.com/questions/43809872/css-issue-with-header-and-nav-list-not-aligning - help with aligning title and nav
 
-https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_24600855.htm#fromView=search&page=1&position=12&uuid=f3a21a98-cbd2-45e2-ba34-23210db7aaf8 - bg image   "@starline - Freepik
+https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_24600855.htm#fromView=search&page=1&position=12&uuid=f3a21a98-cbd2-45e2-ba34-23210db7aaf8 - bg image "@starline - Freepik
 
 ![issue with opacity - trying different methods to ensure text still pops but background can remain the same](image.png)
 
@@ -14,8 +14,8 @@ https://codepen.io/cbracco/pen/kQmVGM - helped with getting footer to remain on 
 
 ![debugging and testing - playing with the flex display to try and find a good alignment for this screen size](image-2.png)
 
-
 ![debugging and testing best way to get my experince site to work - using either flex or grid](image-3.png)
 
 ![see above](image-4.png)
 
+card design: https://codepen.io/Incorr3ct/pen/ExvYJvN
