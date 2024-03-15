@@ -19,3 +19,5 @@ https://codepen.io/cbracco/pen/kQmVGM - helped with getting footer to remain on 
 ![see above](image-4.png)
 
 card design: https://codepen.io/Incorr3ct/pen/ExvYJvN
+
+bug with newly added form ![form error](form-bug.png)
