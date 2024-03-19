@@ -70,9 +70,17 @@
 /* Home - Media */
 
 @media (max-width: 768px) {
-  img {
-    display: none;
+  .profile__image {
+    order: -1;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 1em;
   }
+
+  .profile-text {
+    margin-bottom: 2em;
+  }
+
   .profile-text h2 {
     font-size: 2rem;
   }
@@ -80,22 +88,23 @@
     font-size: 2rem;
   }
 
-  .main-content {
-    text-align: center;
-    margin-top: 15em;
-    flex-direction: column;
-    align-items: center;
-  }
   .profile-text p {
     font-size: 1.25rem;
   }
+
+  .main-content {
+    margin-top: 7em;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
   .tech-logo li {
     font-size: 1.5rem;
   }
 }
 @media (max-width: 948px) {
-  img {
-    display: none;
+  .main-content {
+    flex-wrap: wrap;
   }
 }
 
