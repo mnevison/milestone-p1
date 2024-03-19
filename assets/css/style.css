@@ -37,7 +37,6 @@
 }
 
 .profile-text p {
-  font-family: "Garamond", sans-serif;
   color: var(--txt-secondary);
   font-size: 1.5rem;
   font-weight: 200;
@@ -311,6 +310,9 @@
 @media (max-width: 1184px) {
   .project-content {
     flex-wrap: wrap;
+  }
+  .project-bottom {
+    text-align: center;
   }
 }
 
