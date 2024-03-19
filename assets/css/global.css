@@ -50,7 +50,7 @@ body {
 /* Header */
 
 header {
-  background: var(--container-bg);
+  background: var(--bg-primary);
   text-align: center;
   position: fixed;
   z-index: 999;
@@ -117,7 +117,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--container-bg);
+  background: var(--bg-primary);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -167,6 +167,7 @@ nav a.active {
   }
 
   header {
+    background: var(--container-bg);
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
@@ -208,8 +209,6 @@ nav a.active {
   }
 }
 
-
-
 /* Footer */
 
 .footer {
@@ -222,7 +221,7 @@ nav a.active {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 7.8125em;
+  height: 5em;
   list-style: none;
 }
 

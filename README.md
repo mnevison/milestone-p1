@@ -21,3 +21,5 @@ https://codepen.io/cbracco/pen/kQmVGM - helped with getting footer to remain on 
 card design: https://codepen.io/Incorr3ct/pen/ExvYJvN
 
 bug with newly added form ![form error](form-bug.png)
+
+![getting vertical scroll on pages now - bug](scroll-bug.png) < fixed bug - applied incorrect styling to a genericly used container rather than section specific container>
