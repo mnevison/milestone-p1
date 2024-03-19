@@ -99,6 +99,7 @@
 
   .tech-logo li {
     font-size: 1.5rem;
+    padding-left: 1em;
   }
 }
 @media (max-width: 948px) {
