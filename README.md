@@ -263,7 +263,7 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
    - As this is the first stand-alone project, layout was the thing that plagued me more than anything else. I wanted to do it using pure CSS rather than using a framework like Bootstrap, so working through the various layout tools on offer and deciding which one fit each situation was a challenge. Below are some images I captured while going through this process.
 
    ![layout1](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-2.png)
-   ![layout2](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-2.png)
+   ![layout2](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-3.png)
    ![layout3](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-4.png)
 
    - While these issues are not necessarily "bugs", it was something that took up quite a bit of development time. I finally stuck to using flexbox, with a combination of flex-direction and flex-wrap to aid in responsiveness.
