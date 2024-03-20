@@ -9,9 +9,10 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
 ## Contents
 
 - [User Experience](#user-experience-ux)
+
   - [User Stories](#user-stories)
 
-* [Design](#design)
+- [Design](#design)
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
   - [Imagery](#imagery)
@@ -23,7 +24,13 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
     - [Contact](#contact)
     - [Site Wide](#site-wide)
     - [Future Updates/Changes](#future-improvementschanges)
-  * [Accessability](#accessability)
+  - [Accessability](#accessability)
+- [How It Was Built](#how-it-was-built)
+  - [Languages Used](#languages-used)
+  - [Libraries, Websites & Programs Used](#libraries-websites--programs-used)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment) 
+  - [Local Development](#local-development) 
 
 ---
 
@@ -191,7 +198,49 @@ As per the requirements for the project, the only languages that have been used 
 - [GitHub](https://github.com/) - To store all files relating to the project.
 - [Balsamiq](https://balsamiq.com/) - For the wireframes used to mock-up the site.
 - [Favicon.io](https://favicon.io/) - Used for the sites favicon.
-- [Bing Designer](https://www.bing.com/search?q=Bing+AI&showconv=1&sendquery=1&FORM=HDRSC2) - Used to create my AI profile picture. 
+- [Bing Designer](https://www.bing.com/search?q=Bing+AI&showconv=1&sendquery=1&FORM=HDRSC2) - Used to create my AI profile picture.
 - [Google Fonts](https://fonts.google.com/) - For the font used across the site.
-- [Font Awesome](https://fontawesome.com/) - For the brand icons. 
+- [Font Awesome](https://fontawesome.com/) - For the brand icons.
 - [Google Dev Tools](https://developer.chrome.com/docs/) - Dev tools used throughout the build process.
+
+---
+
+## Deployment & Local Development
+
+### Deployment
+
+This site is deployed through Netlify - [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)
+
+_When I attempted to deploy the site through GitHub pages, half of the content wasn't loading correctly. It seemed like the CSS file was missing/broken for the majority of the site. I did some research on Google for alternatives and Netlify was offered as one of them._
+
+To deploy the site Via Netlify using a GitHub repository:
+
+1. Login to GitHub (Or sign up).
+2. Goto the repository for the project, <https://github.com/mnevison/milestone-p1>
+3. Login to Netlify (Or sign up).
+4. Link your GitHub account to your Netlify account.
+5. Find the "Sites" section on the main page and "Add new site".
+6. Select the repository you want to deploy.
+7. Configure the site and deploy it. You will be provided with a URL to the deployed site.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, <https://github.com/mnevison/milestone-p1>
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, <https://github.com/mnevison/milestone-p1>
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+---
