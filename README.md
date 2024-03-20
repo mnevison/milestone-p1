@@ -22,6 +22,8 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
     - [Projects](#projects)
     - [Contact](#contact)
     - [Site Wide](#site-wide)
+    - [Future Updates/Changes](#future-improvementschanges)
+  * [Accessability](#accessability)
 
 ---
 
@@ -164,12 +166,32 @@ While building the website I have been mindful of accessability and have tried t
 
 ![access-card](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/access-card.png)
 
-- At smaller screens, my linear gradient background would be a lot lighter at the top of the screen which is where the text seemed lightest also. To account for this I changed my colours in my break points to ensure everything was still clear. 
+- At smaller screens, my linear gradient background would be a lot lighter at the top of the screen which is where the text seemed lightest also. To account for this I changed my colours in my break points to ensure everything was still clear.
 
 #### Normal Colour Scheme
+
 ![normal-clr](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/normal-clr.png)
 
 #### Responsive Colour Scheme
+
 ![responsive-clr](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/reponsive-clr.png)
 
+---
 
+## How It Was Built
+
+### Languages Used
+
+As per the requirements for the project, the only languages that have been used throughout the development of the website are HTML & CSS.
+
+### Libraries, Websites & Programs Used
+
+- [VSCode](https://code.visualstudio.com/) - IDE of choice for the site.
+- [Git](https://git-scm.com/) - For version control.
+- [GitHub](https://github.com/) - To store all files relating to the project.
+- [Balsamiq](https://balsamiq.com/) - For the wireframes used to mock-up the site.
+- [Favicon.io](https://favicon.io/) - Used for the sites favicon.
+- [Bing Designer](https://www.bing.com/search?q=Bing+AI&showconv=1&sendquery=1&FORM=HDRSC2) - Used to create my AI profile picture. 
+- [Google Fonts](https://fonts.google.com/) - For the font used across the site.
+- [Font Awesome](https://fontawesome.com/) - For the brand icons. 
+- [Google Dev Tools](https://developer.chrome.com/docs/) - Dev tools used throughout the build process.
