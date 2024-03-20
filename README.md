@@ -13,28 +13,39 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
   - [User Stories](#user-stories)
 
 - [Design](#design)
+
   - [Colour Scheme](#colour-scheme)
   - [Typography](#typography)
   - [Imagery](#imagery)
   - [Wireframes](#wireframes)
   - [Features](#features)
+
     - [Homepage](#home-page)
     - [Experience](#experience)
     - [Projects](#projects)
     - [Contact](#contact)
     - [Site Wide](#site-wide)
     - [Future Updates/Changes](#future-improvementschanges)
+
   - [Accessability](#accessability)
+
 - [How It Was Built](#how-it-was-built)
+
   - [Languages Used](#languages-used)
   - [Libraries, Websites & Programs Used](#libraries-websites--programs-used)
+
 - [Deployment & Local Development](#deployment--local-development)
+
   - [Deployment](#deployment)
   - [Local Development](#local-development)
+
 - [Testing](#testing)
+
   - [Solved Bugs](#solved-bugs)
   - [Known Bugs](#known-bugs)
+
 - [Credits](#credits)
+
   - [Code Used](#code-used)
   - [Page Content](#page-content)
   - [Media](#media)
@@ -309,9 +320,9 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
 - Although it is no longer in use, I would like to give credit to user @starline over on Freepik for the [background image](https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_24600855.htm#fromView=search&page=1&position=12&uuid=f3a21a98-cbd2-45e2-ba34-23210db7aaf8) I initially had on the site.
 
-### Acknowledgements 
+### Acknowledgements
 
-I would like to give special acknowledgement to:
+I would like to give special acknowledgements to:
 
 - UCP-15 Discord - For always providing feedback on my project.
 - Jubril Akolade - My Code Institute mentor.
