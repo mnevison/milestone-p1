@@ -216,12 +216,11 @@ _When I attempted to deploy the site through GitHub pages, half of the content w
 To deploy the site Via Netlify using a GitHub repository:
 
 1. Login to GitHub (Or sign up).
-2. Goto the repository for the project, <https://github.com/mnevison/milestone-p1>
-3. Login to Netlify (Or sign up).
-4. Link your GitHub account to your Netlify account.
-5. Find the "Sites" section on the main page and "Add new site".
-6. Select the repository you want to deploy.
-7. Configure the site and deploy it. You will be provided with a URL to the deployed site.
+2. Login to Netlify (Or sign up).
+3. Link your GitHub account to your Netlify account.
+4. Find the "Sites" section on the main page and "Add new site".
+5. Select the repository you want to deploy.
+6. Configure the site and deploy it. You will be provided with a URL to the deployed site.
 
 ### Local Development
 
