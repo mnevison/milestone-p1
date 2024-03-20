@@ -1,6 +1,6 @@
 # Mark.dev - Milestone Project 1
 
-![AmIResponsive Image](assets\docs\amiresponsive-siteimage.jpg)
+![AmIResponsive Image](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/amiresponsive-siteimage.jpg)
 
 Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)
 
@@ -43,7 +43,7 @@ As the page is meant to be a personal profile, I went with my favourite colour. 
 
 Initially I settled on the "Window Tide" scheme.
 
-![Colours](assets\docs\colour-scheme.jpg)
+![Colours](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/colour-scheme.jpg)
 
 However, early on in the development of the site I wanted a background image that would fulfil 2 roles:
 
@@ -64,4 +64,4 @@ In my css file I declared some custom variables for my colouring scheme that was
 
 * There was also an RGBA variant of my primary background colour defined ```rgba(3, 46, 81, 0.5)``` into it's own function for use on backgrounds with text, as the opacity on this didn't have any impact on the text its self. Using the "opacity" function within css seemed to dull the text. 
 
-![final-scheme](assets\docs\final-scheme.png)
+![final-scheme](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/final-scheme.png)
