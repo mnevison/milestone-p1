@@ -80,9 +80,9 @@ In my css file I declared some custom variables for my colouring scheme that was
 
 I used Google Fonts for the text across the entire site.
 
-- The font I used was [Poppins](https://fonts.google.com/specimen/Poppins?preview.text=Mark.dev). The font is very clean, very rounded and gives off friendly vibes. It has excellent readability across all the font sizes and weights across the site.
+- The font I used was [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=Mark.dev&query=Ubuntu). The font is very clean, very rounded and gives off friendly vibes. It has excellent readability across all the font sizes and weights across the site.
 
-![Poppins](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/Poppins-font.png)
+![Poppins](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/ubuntu.png)
 
 ## Imagery
 
@@ -134,7 +134,7 @@ The projects page is intended to highlight and display the projects I would cons
 
 ![projects-pg](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/projects-prev.png)
 
-#### Contact
+### Contact
 
 This page does what it says on the tin - it provides users with my contact information. I added a form as well which can be used to get in contact with a possible project idea. I also provided a link to a downloadable version of my CV/Resume.
 
@@ -143,3 +143,14 @@ This page does what it says on the tin - it provides users with my contact infor
 ### Site Wide
 
 Each page within the site has a dedicated navbar and a footer. The navbar is responsive and changes depending on the screen size. The footer contains links to my various social accounts.
+
+### Future Improvements/Changes
+
+As my journey continues with my diploma and I build my skill set, I would like to make adjustments to the site based on updated knowledge.
+
+Some of these could be:
+
+1. Update the projects section with fresh content built specifically by myself.
+2. Add some interesting JavaScript components.
+
+### Accessability 
