@@ -29,8 +29,8 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
   - [Languages Used](#languages-used)
   - [Libraries, Websites & Programs Used](#libraries-websites--programs-used)
 - [Deployment & Local Development](#deployment--local-development)
-  - [Deployment](#deployment) 
-  - [Local Development](#local-development) 
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
 
 ---
 
@@ -58,7 +58,7 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
 
 ### Colour Scheme
 
-As the page is meant to be a personal profile, I went with my favourite colour. With that as my starting point, I went to Google to try and find a resource that would give me an idea about good colour combinations. I found [Canva](https://www.canva.com/colors/color-palettes/), which had more than enough potential to pick something that popped for me.
+As the page is meant to be a personal profile, I went with my favorite colour. With that as my starting point, I went to Google to try and find a resource that would give me an idea about good colour combinations. I found [Canva](https://www.canva.com/colors/color-palettes/), which had more than enough potential to pick something that popped for me.
 
 Initially I settled on the "Window Tide" scheme.
 
@@ -243,3 +243,40 @@ To clone the repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ---
+
+## Testing
+
+Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTING.md) for all testing that has been carried out.
+
+## Solved Bugs
+
+1. Opacity issue.
+
+   - Applied an opacity to my header and footer elements to allow some of the background to come through and it made the text fairly unreadable.
+     ![opacity-bug](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image.png)
+
+   - To fix the issue I took my hex colour and converted it to rgba using [this](https://rgbacolorpicker.com/hex-to-rgba#google_vignette) website. With the opacity from the RGBA colour, the issue was fixed. Text showed up as intended.
+     ![opacity-fix](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-1.png)
+
+2. Layout!
+
+   - As this is the first stand-alone project, layout was the thing that plagued me more than anything else. I wanted to do it using pure CSS rather than using a framework like Bootstrap, so working through the various layout tools on offer and deciding which one fit each situation was a challenge. Below are some images I captured while going through this process.
+
+   ![layout1](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-2.png)
+   ![layout2](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-2.png)
+   ![layout3](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-4.png)
+
+   - While these issues are not necessarily "bugs", it was something that took up quite a bit of development time. I finally stuck to using flexbox, with a combination of flex-direction and flex-wrap to aid in responsiveness.
+
+3. Scrolling bug.
+   - I had an issue with vertical scroll bars showing up across all pages bar the home page. 
+
+   ![scroll-bug](https://github.com/mnevison/milestone-p1/blob/d4dc41feadfa32ad558d734ccfe85e5c752b2f2a/assets/docs/scroll-bug.png)
+
+   - The issue was caused by accidentally applying styling to my generic "container" class. This caused additional margins and padding to appear where they weren't intended to be. 
+
+## Known Bugs
+
+- The only bug that still persists on the site is with my "form" element on my contacts page. I wanted the user to be able to input some information and a response would appear in a different tab with acknowledgement of the submission.
+
+![form-bug](https://github.com/mnevison/milestone-p1/blob/16b9eb9f52adf610c274517f1a322bfb4b18b98b/assets/docs/form-bug.png)
