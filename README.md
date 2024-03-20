@@ -1,25 +1,67 @@
-# Milestone Project #1
+# Mark.dev - Milestone Project 1
 
-https://stackoverflow.com/questions/43809872/css-issue-with-header-and-nav-list-not-aligning - help with aligning title and nav
+![AmIResponsive Image](assets\docs\amiresponsive-siteimage.jpg)
 
-https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_24600855.htm#fromView=search&page=1&position=12&uuid=f3a21a98-cbd2-45e2-ba34-23210db7aaf8 - bg image "@starline - Freepik
+Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)
 
-![issue with opacity - trying different methods to ensure text still pops but background can remain the same](image.png)
+As someone who is wanting to progress forward in Tech, I heard many people speak about "portfolios" and how important they are when looking for jobs. I wanted to design myself a website that would give the user a bit of useful information about me, while also displaying my knowledge and abilities either through the site its self, or projects I outline within the pages of the site.
 
-![fixed issue with opacity and text - using rgba and trying to color match original background - new issue arose with the hover effect](image-1.png)
+## Contents
 
-https://www.30secondsofcode.org/css/s/footer-at-the-bottom/#:~:text=You%20can%20use%20flexbox%20to,and%20flex%2Ddirection%3A%20column%20. - code for getting my footer and header spaced correctly
+- [User Experience](#user-experience-ux)
+  - [User Stories](#user-stories)
 
-https://codepen.io/cbracco/pen/kQmVGM - helped with getting footer to remain on the bottom of the page
+* [Design](#design)
 
-![debugging and testing - playing with the flex display to try and find a good alignment for this screen size](image-2.png)
+---
 
-![debugging and testing best way to get my experince site to work - using either flex or grid](image-3.png)
+## User Experience (UX)
 
-![see above](image-4.png)
+### User Stories
 
-card design: https://codepen.io/Incorr3ct/pen/ExvYJvN
+#### First Time Visitor Goals
 
-bug with newly added form ![form error](form-bug.png)
+- I want to get useful information about this person.
+- I want the site to work on my chosen device.
+- I want to find my way around the site easily.
 
-![getting vertical scroll on pages now - bug](scroll-bug.png) < fixed bug - applied incorrect styling to a genericly used container rather than section specific container>
+#### Returning Visitor Goals
+
+- I want to be able to explore more of what this person has to offer.
+
+#### Frequent Visitor Goals
+
+- I want to have the option to reach out and communicate with this person.
+
+---
+
+## Design
+
+### Colour Scheme
+
+As the page is meant to be a personal profile, I went with my favourite colour. With that as my starting point, I went to Google to try and find a resource that would give me an idea about good colour combinations. I found [Canva](https://www.canva.com/colors/color-palettes/), which had more than enough potential to pick something that popped for me.
+
+Initially I settled on the "Window Tide" scheme.
+
+![Colours](assets\docs\colour-scheme.jpg)
+
+However, early on in the development of the site I wanted a background image that would fulfil 2 roles:
+
+1. Be "Techy".
+2. Have a similar colour scheme to what I've picked.
+
+I came across this on [Freepik](https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_24600855.htm#fromView=search&page=1&position=12&uuid=f3a21a98-cbd2-45e2-ba34-23210db7aaf8) and decided I would run with this as my background.
+
+When I added the background, I ended up changing my colour pallet away from my original one and using a colour picker to target the colours of the background image.
+
+In my css file I declared some custom variables for my colouring scheme that was implemented throughout the site. Since starting my course, I have been watching a lot of videos on css and this seems to be a fairly common practice among front-end developers. Having the ability to affect the styling across your whole site by just changing 1 variable is a very useful thing, and I feel it is likely going to be considered best practice for quite a lot of people.
+
+* The 2 darker shades `#011F37` and `#06426F` were what I originally intended for "background" uses.
+
+* I went with `#21A4F0` for my primary text colour.
+
+* I later added a slightly lighter "alternative" text colour in `#B1D4E0`.
+
+* There was also an RGBA variant of my primary background colour defined ```rgba(3, 46, 81, 0.5)``` into it's own function for use on backgrounds with text, as the opacity on this didn't have any impact on the text its self. Using the "opacity" function within css seemed to dull the text. 
+
+![final-scheme](assets\docs\final-scheme.png)
