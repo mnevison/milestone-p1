@@ -257,7 +257,7 @@
   border-radius: 0.5em;
   border: 5px solid var(--txt-secondary);
   overflow: hidden;
-  color: var(--txt-primary);
+  color: var(--txt-secondary);
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
