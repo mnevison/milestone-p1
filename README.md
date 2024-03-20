@@ -279,4 +279,4 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
 - The only bug that still persists on the site is with my "form" element on my contacts page. I wanted the user to be able to input some information and a response would appear in a different tab with acknowledgement of the submission.
 
-![form-bug](https://github.com/mnevison/milestone-p1/blob/16b9eb9f52adf610c274517f1a322bfb4b18b98b/assets/docs/form-bug.png)
+![form-bug](https://github.com/mnevison/milestone-p1/blob/f0ee4deaf8b4bb4b0e4f3253293c4c727086892d/assets/docs/form-bug.png)
