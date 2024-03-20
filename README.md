@@ -31,6 +31,14 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
 - [Deployment & Local Development](#deployment--local-development)
   - [Deployment](#deployment)
   - [Local Development](#local-development)
+- [Testing](#testing)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Page Content](#page-content)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -248,7 +256,7 @@ To clone the repository:
 
 Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTING.md) for all testing that has been carried out.
 
-## Solved Bugs
+### Solved Bugs
 
 1. Opacity issue.
 
@@ -269,14 +277,41 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
    - While these issues are not necessarily "bugs", it was something that took up quite a bit of development time. I finally stuck to using flexbox, with a combination of flex-direction and flex-wrap to aid in responsiveness.
 
 3. Scrolling bug.
-   - I had an issue with vertical scroll bars showing up across all pages bar the home page. 
+
+   - I had an issue with vertical scroll bars showing up across all pages bar the home page.
 
    ![scroll-bug](https://github.com/mnevison/milestone-p1/blob/d4dc41feadfa32ad558d734ccfe85e5c752b2f2a/assets/docs/scroll-bug.png)
 
-   - The issue was caused by accidentally applying styling to my generic "container" class. This caused additional margins and padding to appear where they weren't intended to be. 
+   - The issue was caused by accidentally applying styling to my generic "container" class. This caused additional margins and padding to appear where they weren't intended to be.
 
-## Known Bugs
+### Known Bugs
 
 - The only bug that still persists on the site is with my "form" element on my contacts page. I wanted the user to be able to input some information and a response would appear in a different tab with acknowledgement of the submission.
 
 ![form-bug](https://github.com/mnevison/milestone-p1/blob/f0ee4deaf8b4bb4b0e4f3253293c4c727086892d/assets/docs/form-bug.png)
+
+---
+
+## Credits
+
+### Code Used
+
+- I was struggling with an idea for my project cards. I did a search on Google and came across [this](https://codepen.io/Incorr3ct/pen/ExvYJvN) submission on Codepen. I used some of the elements from the card and applied my own stylings, padding etc making it fit with the site.
+
+- I wanted a more responsive navbar for smaller screens. My mentor suggested a hamburger menu for this. Most hamburger menu information I looked at required JavaScript, but I found [this tutorial](https://www.youtube.com/watch?v=8QKOaTYvYUA&t=2221s) video on YouTube and followed along with this.
+
+### Page Content
+
+- The paragraph content for the Home page was taken from [this site](https://www.resumebuilder.com/full-stack-developer-resume-examples/) to replace the Lorem I had there originally.
+- Content from the rest of the site was added by myself.
+
+### Media
+
+- Although it is no longer in use, I would like to give credit to user @starline over on Freepik for the [background image](https://www.freepik.com/free-vector/matrix-style-binary-code-digital-falling-numbers-blue-background_24600855.htm#fromView=search&page=1&position=12&uuid=f3a21a98-cbd2-45e2-ba34-23210db7aaf8) I initially had on the site.
+
+### Acknowledgements 
+
+I would like to give special acknowledgement to:
+
+- UCP-15 Discord - For always providing feedback on my project.
+- Jubril Akolade - My Code Institute mentor.
