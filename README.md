@@ -153,4 +153,23 @@ Some of these could be:
 1. Update the projects section with fresh content built specifically by myself.
 2. Add some interesting JavaScript components.
 
-### Accessability 
+### Accessability
+
+While building the website I have been mindful of accessability and have tried to make as much of the site as accessible as possible. I've done this by:
+
+- Using semantic HTML elements.
+- Adding hover effects to all interactive links and also making them keyboard-focusable.
+- Using a primary font that was designed with accessability in mind, and also having a sans-serif font as a back-up.
+- Choosing colours that have a good contrast across the site.
+
+![access-card](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/access-card.png)
+
+- At smaller screens, my linear gradient background would be a lot lighter at the top of the screen which is where the text seemed lightest also. To account for this I changed my colours in my break points to ensure everything was still clear. 
+
+#### Normal Colour Scheme
+![normal-clr](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/normal-clr.png)
+
+#### Responsive Colour Scheme
+![responsive-clr](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/reponsive-clr.png)
+
+
