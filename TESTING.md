@@ -91,23 +91,23 @@ Again - Pretty significant bump in the over-all metrics.
 
 **First Time Visitor Goals**
 
-Goals | How are requirements met?
---- | ---
-I want to get useful information about this person | I wanted to make sure the intent of the website was made clear on the home page, as well as provide some basic but useful information to a first time user.
-I want the site to work on my chosen device | I have tested the site across multiple different devices using either physical or responsive mode via Google Dev Tools
-I want to find my way around the site easily | Each page of the website, regardless of device has a dedicated navbar at the top of the page. The page title can also be interacted with to bring users back to the home page. 
+| Goals                                              | How are requirements met?                                                                                                                                                      |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| I want to get useful information about this person | I wanted to make sure the intent of the website was made clear on the home page, as well as provide some basic but useful information to a first time user.                    |
+| I want the site to work on my chosen device        | I have tested the site across multiple different devices using either physical or responsive mode via Google Dev Tools                                                         |
+| I want to find my way around the site easily       | Each page of the website, regardless of device has a dedicated navbar at the top of the page. The page title can also be interacted with to bring users back to the home page. |
 
 **Returning Visitor Goals**
 
-Goals | How are requirements met?
---- | --- 
-I want to be able to explore more of what this person has to offer | As users navigate around the site, they will uncover a wealth of information about me, my background, skills projects etc. 
+| Goals                                                              | How are requirements met?                                                                                                  |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| I want to be able to explore more of what this person has to offer | As users navigate around the site, they will uncover a wealth of information about me, my background, skills projects etc. |
 
 **Frequent Visitor Goals**
 
-Goals | How are requirements met?
---- | ---
-I want to have the option to reach out and communicate with this person | Someone that visits the page multiple times likely has an interest in what I might have to offer - I have specifically included a contact section so people can reach out either via email, phone or using one of the social links provided. I also added a form so that a user could get in contact to discuss project ideas. 
+| Goals                                                                   | How are requirements met?                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| I want to have the option to reach out and communicate with this person | Someone that visits the page multiple times likely has an interest in what I might have to offer - I have specifically included a contact section so people can reach out either via email, phone or using one of the social links provided. I also added a form so that a user could get in contact to discuss project ideas. |
 
 ---
 
@@ -119,21 +119,23 @@ The site was built using VSCode on a desktop Windows based PC. When testing the 
 
 Devices I used to check personally are:
 
-* Primary Display
-    * AOC 24" 1080p Monitor
+- Primary Display
 
-* Laptop
-    * Lenovo Thinkpad 14inch
+  - AOC 24" 1080p Monitor
 
-* Mobile
-    * Google Pixel 7
-    * Google Pixel 7a
-    * Google Pixel 6
-    * Samsung s20
+- Laptop
 
-I tested the site using Google Chrome, Microsoft Edge and Firefox on the Desktop & Laptop. Mobile devices are running Chrome, and I was able to use the Samsung Browser on the s20. 
+  - Lenovo Thinkpad 14inch
 
-*Unfortunately I don't know anyone who has a device that is part of the Apple ecosystem, so my testing on Apple products is LIMITED! I was however able to find a website <browserstack.com> that allowed me to emulate Safari for a very small amount of time. I took some screenshots of the process, however I was only allowed access for 2 minutes.*
+- Mobile
+  - Google Pixel 7
+  - Google Pixel 7a
+  - Google Pixel 6
+  - Samsung s20
+
+I tested the site using Google Chrome, Microsoft Edge and Firefox on the Desktop & Laptop. Mobile devices are running Chrome, and I was able to use the Samsung Browser on the s20.
+
+_Unfortunately I don't know anyone who has a device that is part of the Apple ecosystem, so my testing on Apple products is LIMITED! I was however able to find a website <https://browserstack.com> that allowed me to emulate Safari for a very small amount of time. I took some screenshots of the process, however I was only allowed access for 2 minutes._
 
 #### Resizing Desktop
 
@@ -148,6 +150,23 @@ I tested the site using Google Chrome, Microsoft Edge and Firefox on the Desktop
 ![dev-project](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/dev-projects.png)
 ![dev-contact](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/dev-contact.png)
 
-*As you can see, the testing wasn't extensive. I was able to test all the links worked and the stylings all applied as intended.*
+_As you can see, the testing wasn't extensive. I was able to test all the links worked and the stylings all applied as intended._
 
+---
 
+## Features
+
+### Header & Footer
+
+The Header & Footer of the site are present on each page. Header will always be in view - this is more apparent on a mobile device as the colouring changes into a more solid colour as to allow it to always remain on top of the content when scrolling down the site. The footer remains on the bottom, as intended and contains useful social links.
+
+**Testing**
+
+| Feature                                | Expectation                                                                                         | Test Performed                      | Outcome                                                                     |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------- | ----------------------------------- | --------------------------------------------------------------------------- |
+| Mark.dev Title                         | Navigate back to home                                                                               | Clicked link                        | Refreshed/Changed page                                                      |
+| Nav Links                              | Take user to required page                                                                          | Clicked link                        | Went to intended page                                                       |
+| Hover effect                           | Alter colour of a clickable link when hovering over                                                 | Hovered over                        | Changed colour                                                              |
+| Header always on top on mobile devices | Header element and contents (title and navigation) remain on top of content                         | Screen resized & scrolled down page | Header was on top of contact and all interactions still present and working |
+| Active Page                            | The page the user is on is to be highlighted in a different colour to the standard navigation links | Changed to each page                | Correct page was highlighted when viewing                                   |
+| Footer Links                           | A new tab would open when link is pressed and user would be taken to desired page                   | Clicked links                       | New tab opened for each link provided                                       |
