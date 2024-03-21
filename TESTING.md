@@ -133,5 +133,21 @@ Devices I used to check personally are:
 
 I tested the site using Google Chrome, Microsoft Edge and Firefox on the Desktop & Laptop. Mobile devices are running Chrome, and I was able to use the Samsung Browser on the s20. 
 
+*Unfortunately I don't know anyone who has a device that is part of the Apple ecosystem, so my testing on Apple products is LIMITED! I was however able to find a website <browserstack.com> that allowed me to emulate Safari for a very small amount of time. I took some screenshots of the process, however I was only allowed access for 2 minutes.*
+
+#### Resizing Desktop
+
+![saf-fs](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/safar-fullscreen.png)
+![saf-hs](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/safar-half.png)
+![saf-smol](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/safar-smol.png)
+
+#### Dev Tool View - All pages
+
+![dev-home](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/dev-home.png)
+![dev-exp](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/dev-experience.png)
+![dev-project](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/dev-projects.png)
+![dev-contact](https://github.com/mnevison/milestone-p1/blob/26618f274cb6c680bbdf27b7c13d5c22f72e5d4e/testing/safari/dev-contact.png)
+
+*As you can see, the testing wasn't extensive. I was able to test all the links worked and the stylings all applied as intended.*
 
 
