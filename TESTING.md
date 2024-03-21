@@ -31,5 +31,5 @@ I've tested the sites responsiveness across multiple browsers and devices to try
 *  [Index/Home](https://github.com/mnevison/milestone-p1/blob/ddd18638d990563bd3b3b20eff3bf24a66434161/testing/w3/home-w3.png) - Passed with no errors or warnings. 
 * [Experience](https://github.com/mnevison/milestone-p1/blob/c4acd944e06f9db976363adf68ed2a1355c68884/testing/w3/experience-w3.png) - Passed with no errors or warnings.
 * [Projects](https://github.com/mnevison/milestone-p1/blob/c4acd944e06f9db976363adf68ed2a1355c68884/testing/w3/projects-w3.png) - Passed with no errors or warnings. I did need to go back to my HTML and troubleshoot some errors initially relating to a stray " left when I moved my .active class for my navbar styling. 
-* [Contact]
+* [Contact](https://github.com/mnevison/milestone-p1/blob/2f4658d5dfb6b8ac6d4c05e46f7bf57dd1ff6b55/testing/w3/w3-contact.png) - Passed with no errors or warnings. Needed to remove a mis-placed alt tag in response to initial errors on the page.
 
