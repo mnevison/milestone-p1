@@ -35,9 +35,21 @@ I've tested the sites responsiveness across multiple browsers and devices to try
 
 ### W3 Jigsaw - CSS
 
-[W3C Jigsaw](https://jigsaw.w3.org/css-validator/) was used to validated my CSS document(s). My project contains 2 files, a "global" one, which contains styles for elements that appear across each page and a regular style.css file. When providing a direct link to the site it will check all CSS files. 
+[W3C Jigsaw](https://jigsaw.w3.org/css-validator/) was used to validated my CSS document(s). My project contains 2 files, a "global" one, which contains styles for elements that appear across each page and a regular style.css file. When providing a direct link to the site it will check all CSS files.
 
-* [CSS](https://github.com/mnevison/milestone-p1/blob/de46a3b5fe080bcb6225bfa0ff55fc119d62551f/testing/w3/jigsaw-css.png) - No errors found.
-
+- [CSS](https://github.com/mnevison/milestone-p1/blob/de46a3b5fe080bcb6225bfa0ff55fc119d62551f/testing/w3/jigsaw-css.png) - No errors found.
 
 ### Lighthouse
+
+I ran each page of my site through Lighthouse on Google Dev Tools to test the various performance metrics it measures. After my initial testing, I wasn't happy with my results so I went back into my HTML and worked on some of the feedback provided. I will display both before and after results below for each page on desktop & mobile devices.
+
+#### Desktop Results - Before
+
+![Home-desktop](https://github.com/mnevison/milestone-p1/blob/5f08638f8091ca24aa4c2ecb7afa05ab8ef19586/testing/lighthouse/home-desktop.png)
+![Experience-desktop](https://github.com/mnevison/milestone-p1/blob/5f08638f8091ca24aa4c2ecb7afa05ab8ef19586/testing/lighthouse/exp-desktop.png)
+![Projects-desktop](https://github.com/mnevison/milestone-p1/blob/f7e72d00dd2c95ad063d08c72803dd892c530d7a/testing/lighthouse/projects-desktop.png)
+![Contact-desktop](https://github.com/mnevison/milestone-p1/blob/815c1d35ffca7b2d0239e8053a9f1979c70cdded/testing/lighthouse/contact-desktop.png)
+
+#### Desktop Results - After
+
+
