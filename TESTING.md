@@ -12,7 +12,7 @@ Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.a
 
   - [W3 Validator - HTML](#w3-validator---html)
   - [W3 Jigsaw - CSS](#w3-jigsaw---css)
-  - [Lighthouse]()
+  - [Lighthouse](#lighthouse)
 
 ---
 
@@ -61,3 +61,20 @@ I ran each page of my site through Lighthouse on Google Dev Tools to test the va
 
 As you can see - the few minor changes increased my metrics pretty significantly. 
 
+#### Mobile Results - Before
+
+![home-mobile](https://github.com/mnevison/milestone-p1/blob/815c1d35ffca7b2d0239e8053a9f1979c70cdded/testing/lighthouse/home-mobile.png)
+![exp-mobile](https://github.com/mnevison/milestone-p1/blob/815c1d35ffca7b2d0239e8053a9f1979c70cdded/testing/lighthouse/exp-mobile.png)
+![projects-mobile](https://github.com/mnevison/milestone-p1/blob/815c1d35ffca7b2d0239e8053a9f1979c70cdded/testing/lighthouse/projects-mobile.png)
+![contact-mobile](https://github.com/mnevison/milestone-p1/blob/815c1d35ffca7b2d0239e8053a9f1979c70cdded/testing/lighthouse/contact-mobile.png)
+
+#### Mobile Results - After
+
+![home-mob-after](https://github.com/mnevison/milestone-p1/blob/67a466c2a8916fcd91985fa0be615741924fd659/testing/lighthouse/home-mobile-after.png)
+![exp-mob-after](https://github.com/mnevison/milestone-p1/blob/67a466c2a8916fcd91985fa0be615741924fd659/testing/lighthouse/exp-mobile-after.png)
+![project-mob-after](https://github.com/mnevison/milestone-p1/blob/67a466c2a8916fcd91985fa0be615741924fd659/testing/lighthouse/projects-mobile-after.png)
+![contact-mob-after](https://github.com/mnevison/milestone-p1/blob/67a466c2a8916fcd91985fa0be615741924fd659/testing/lighthouse/contact-mobile-after.png)
+
+Again - Pretty significant bump in the over-all metrics. 
+
+---
