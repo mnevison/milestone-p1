@@ -171,24 +171,38 @@ The Header & Footer of the site are present on each page. Header will always be 
 | Active Page                            | The page the user is on is to be highlighted in a different colour to the standard navigation links | Changed to each page                | Correct page was highlighted when viewing                                   |
 | Footer Links                           | A new tab would open when link is pressed and user would be taken to desired page                   | Clicked links                       | New tab opened for each link provided                                       |
 
-
 ### Home Page/Index
 
 The main feature of the home page would just be the general content. Ensuring that the content and especially the hero/profile image were responsive across all view ports was my main concern with this page.
 
 **Testing**
 
-Feature | Expectation | Test Performed | Outcome
---- | --- | --- | ---
-Responsive Content | Content resizes/rearranges based on users device | Tested across a range of devices/medias | Content changed size and remained legible across said devices/medias
+| Feature            | Expectation                                      | Test Performed                          | Outcome                                                              |
+| ------------------ | ------------------------------------------------ | --------------------------------------- | -------------------------------------------------------------------- |
+| Responsive Content | Content resizes/rearranges based on users device | Tested across a range of devices/medias | Content changed size and remained legible across said devices/medias |
 
-### Experience 
+### Experience
 
-As with the home page, this page is designed primarily with just raw content in mind, so the features as much the same as the home page.
+As with the home page, this page is designed primarily with just raw content in mind, so the features are the same as the home page.
 
 **Testing**
 
-Feature | Expectation | Test Performed | Outcome
---- | --- | --- | ---
-Responsive Content | Content resizes/rearranges based on users device | Tested across a range of devices/medias | Content changed size and remained legible across said devices/medias
+| Feature            | Expectation                                      | Test Performed                          | Outcome                                                              |
+| ------------------ | ------------------------------------------------ | --------------------------------------- | -------------------------------------------------------------------- |
+| Responsive Content | Content resizes/rearranges based on users device | Tested across a range of devices/medias | Content changed size and remained legible across said devices/medias |
+
+### Projects
+
+The Projects page is intended to give the user a look at what projects i'm working on/have worked on recently. I knew going into this page I wanted to use cards that stood out and looked the part while also providing all the information a user would need.
+
+**Testing**
+
+| Feature           | Expectation                                                                                                   | Test Performed                          | Outcome                                             |
+| ----------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------------------------------------------------- |
+| Card Hover        | The card hovers when user would scroll over it                                                                | Scrolled over card                      | Card hovered as intended                            |
+| Project Links     | User can click the project link and a live deployed version of the project will open in a new tab for viewing | Clicked link                            | Taken to a deployed version of the selected project |
+| Source Code Links | User can click the link and be taken to the source code for the project, opened in a new tab                  | Clicked link                            | Taken to source code in a new tab                   |
+| GitHub Link       | User can click the word "GitHub" on the screen and be taken to my GitHub page                                 | Clicked link                            | Taken to my GitHub page                             |
+| Responsive Content | All content still viewable across all devices/medias                                                          | Tested across a range of devices/medias | Content resizes/wraps depending on the size         |
+
 
