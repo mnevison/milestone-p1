@@ -43,6 +43,8 @@ I've tested the sites responsiveness across multiple browsers and devices to try
 
 I ran each page of my site through Lighthouse on Google Dev Tools to test the various performance metrics it measures. After my initial testing, I wasn't happy with my results so I went back into my HTML and worked on some of the feedback provided. I will display both before and after results below for each page on desktop & mobile devices.
 
+*Lighthouse results range from 0-100. Ranges 0-49 are seen as "poor" 50-89 are considered good, and anything over 90 would be excellent. The changes I made to increase my scores regarding accessibility were done within my "footer" - my links were aria-hidden: true which causes issues for screen readers. I improved my SEO score by added more descriptive meta data within the head section of each page - basic description of the site and details of the author.*
+
 #### Desktop Results - Before
 
 ![Home-desktop](https://github.com/mnevison/milestone-p1/blob/5f08638f8091ca24aa4c2ecb7afa05ab8ef19586/testing/lighthouse/home-desktop.png)
@@ -52,4 +54,10 @@ I ran each page of my site through Lighthouse on Google Dev Tools to test the va
 
 #### Desktop Results - After
 
+![Home-after](https://github.com/mnevison/milestone-p1/blob/be6c2cd66f7507d1497ef67650d1b2af888d61be/testing/lighthouse/home-desktop-after.png)
+![Experience-after](https://github.com/mnevison/milestone-p1/blob/be6c2cd66f7507d1497ef67650d1b2af888d61be/testing/lighthouse/exp-desktop-after.png)
+![Projects-after](https://github.com/mnevison/milestone-p1/blob/be6c2cd66f7507d1497ef67650d1b2af888d61be/testing/lighthouse/projects-desktop-after.png)
+![Contacts-after](https://github.com/mnevison/milestone-p1/blob/be6c2cd66f7507d1497ef67650d1b2af888d61be/testing/lighthouse/contact-desktop-after.png)
+
+As you can see - the few minor changes increased my metrics pretty significantly. 
 
