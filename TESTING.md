@@ -200,7 +200,7 @@ The Projects page is intended to give the user a look at what projects i'm worki
 
 | Feature            | Expectation                                                                                                   | Test Performed                          | Outcome                                             |
 | ------------------ | ------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------------------------------------------------- |
-| Card Hover         | The card hovers when user would scroll over it                                                                | Hovered over card                      | Card hovered as intended                            |
+| Card Hover         | The card hovers when user would scroll over it                                                                | Hovered over card                       | Card hovered as intended                            |
 | Project Links      | User can click the project link and a live deployed version of the project will open in a new tab for viewing | Clicked link                            | Taken to a deployed version of the selected project |
 | Source Code Links  | User can click the link and be taken to the source code for the project, opened in a new tab                  | Clicked link                            | Taken to source code in a new tab                   |
 | GitHub Link        | User can click the word "GitHub" on the screen and be taken to my GitHub page                                 | Clicked link                            | Taken to my GitHub page                             |
@@ -212,8 +212,8 @@ The Contact page does as the name suggests - provides users with either contact 
 
 **Testing**
 
-| Feature        | Expectation                                              | Test Performed | Outcome                             |
-| -------------- | -------------------------------------------------------- | -------------- | ----------------------------------- |
-| CV link (icon) | Click link and be redirected to a downloadable CV/resume | Clicked link   | New page opened in a new tab to the CV |
-Icon hover | Change colour when hovered over | Hovered over icon | Icon changed colour 
-Contact Form | User inputs information into the form and submits, gets a new window pop-up with an acknowledgement | Filled in form and hit submit button | Test failed. Error when loading new page (Only known and existing bug on site)
+| Feature        | Expectation                                                                                         | Test Performed                       | Outcome                                                                        |
+| -------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------ |
+| CV link (icon) | Click link and be redirected to a downloadable CV/resume                                            | Clicked link                         | New page opened in a new tab to the CV                                         |
+| Icon hover     | Change colour when hovered over                                                                     | Hovered over icon                    | Icon changed colour                                                            |
+| Contact Form   | User inputs information into the form and submits, gets a new window pop-up with an acknowledgement | Filled in form and hit submit button | Test failed. Error when loading new page (Only known and existing bug on site) |
