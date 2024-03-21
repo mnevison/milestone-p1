@@ -170,3 +170,25 @@ The Header & Footer of the site are present on each page. Header will always be 
 | Header always on top on mobile devices | Header element and contents (title and navigation) remain on top of content                         | Screen resized & scrolled down page | Header was on top of contact and all interactions still present and working |
 | Active Page                            | The page the user is on is to be highlighted in a different colour to the standard navigation links | Changed to each page                | Correct page was highlighted when viewing                                   |
 | Footer Links                           | A new tab would open when link is pressed and user would be taken to desired page                   | Clicked links                       | New tab opened for each link provided                                       |
+
+
+### Home Page/Index
+
+The main feature of the home page would just be the general content. Ensuring that the content and especially the hero/profile image were responsive across all view ports was my main concern with this page.
+
+**Testing**
+
+Feature | Expectation | Test Performed | Outcome
+--- | --- | --- | ---
+Responsive Content | Content resizes/rearranges based on users device | Tested across a range of devices/medias | Content changed size and remained legible across said devices/medias
+
+### Experience 
+
+As with the home page, this page is designed primarily with just raw content in mind, so the features as much the same as the home page.
+
+**Testing**
+
+Feature | Expectation | Test Performed | Outcome
+--- | --- | --- | ---
+Responsive Content | Content resizes/rearranges based on users device | Tested across a range of devices/medias | Content changed size and remained legible across said devices/medias
+
