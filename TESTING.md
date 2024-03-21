@@ -14,6 +14,10 @@ Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.a
   - [W3 Jigsaw - CSS](#w3-jigsaw---css)
   - [Lighthouse](#lighthouse)
 
+- [Manual Testing](#manual-testing)
+
+  - [User Stories](#testing-user-stories)
+
 ---
 
 Testing was something I did throughout the build process. I leaned heavily on Google Dev Tools to help with responsive layout and getting the pages to look as I wanted them to and troubleshoot issues that arose.
@@ -43,7 +47,7 @@ I've tested the sites responsiveness across multiple browsers and devices to try
 
 I ran each page of my site through Lighthouse on Google Dev Tools to test the various performance metrics it measures. After my initial testing, I wasn't happy with my results so I went back into my HTML and worked on some of the feedback provided. I will display both before and after results below for each page on desktop & mobile devices.
 
-*Lighthouse results range from 0-100. Ranges 0-49 are seen as "poor" 50-89 are considered good, and anything over 90 would be excellent. The changes I made to increase my scores regarding accessibility were done within my "footer" - my links were aria-hidden: true which causes issues for screen readers. I improved my SEO score by added more descriptive meta data within the head section of each page - basic description of the site and details of the author.*
+_Lighthouse results range from 0-100. Ranges 0-49 are seen as "poor" 50-89 are considered good, and anything over 90 would be excellent. The changes I made to increase my scores regarding accessibility were done within my "footer" - my links were aria-hidden: true which causes issues for screen readers. I improved my SEO score by added more descriptive meta data within the head section of each page - basic description of the site and details of the author._
 
 #### Desktop Results - Before
 
@@ -59,7 +63,7 @@ I ran each page of my site through Lighthouse on Google Dev Tools to test the va
 ![Projects-after](https://github.com/mnevison/milestone-p1/blob/be6c2cd66f7507d1497ef67650d1b2af888d61be/testing/lighthouse/projects-desktop-after.png)
 ![Contacts-after](https://github.com/mnevison/milestone-p1/blob/be6c2cd66f7507d1497ef67650d1b2af888d61be/testing/lighthouse/contact-desktop-after.png)
 
-As you can see - the few minor changes increased my metrics pretty significantly. 
+As you can see - the few minor changes increased my metrics pretty significantly.
 
 #### Mobile Results - Before
 
@@ -75,6 +79,34 @@ As you can see - the few minor changes increased my metrics pretty significantly
 ![project-mob-after](https://github.com/mnevison/milestone-p1/blob/67a466c2a8916fcd91985fa0be615741924fd659/testing/lighthouse/projects-mobile-after.png)
 ![contact-mob-after](https://github.com/mnevison/milestone-p1/blob/67a466c2a8916fcd91985fa0be615741924fd659/testing/lighthouse/contact-mobile-after.png)
 
-Again - Pretty significant bump in the over-all metrics. 
+Again - Pretty significant bump in the over-all metrics.
 
 ---
+
+## Manual Testing
+
+### Testing User Stories
+
+**First Time Visitor Goals**
+
+Goals | How are requirements met?
+--- | ---
+I want to get useful information about this person | I wanted to make sure the intent of the website was made clear on the home page, as well as provide some basic but useful information to a first time user.
+I want the site to work on my chosen device | I have tested the site across multiple different devices using either physical or responsive mode via Google Dev Tools
+I want to find my way around the site easily | Each page of the website, regardless of device has a dedicated navbar at the top of the page. The page title can also be interacted with to bring users back to the home page. 
+
+**Returning Visitor Goals**
+
+Goals | How are requirements met?
+--- | --- 
+I want to be able to explore more of what this person has to offer | As users navigate around the site, they will uncover a wealth of information about me, my background, skills projects etc. 
+
+**Frequent Visitor Goals**
+
+Goals | How are requirements met?
+--- | ---
+I want to have the option to reach out and communicate with this person | Someone that visits the page multiple times likely has an interest in what I might have to offer - I have specifically included a contact section so people can reach out either via email, phone or using one of the social links provided. I also added a form so that a user could get in contact to discuss project ideas. 
+
+---
+
+
