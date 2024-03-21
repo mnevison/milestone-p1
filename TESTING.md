@@ -17,6 +17,8 @@ Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.a
 - [Manual Testing](#manual-testing)
 
   - [User Stories](#testing-user-stories)
+  - [Full Site & Feature Testing](#full-site--feature-testing)
+    - [Devices](#devices)
 
 ---
 
@@ -108,5 +110,28 @@ Goals | How are requirements met?
 I want to have the option to reach out and communicate with this person | Someone that visits the page multiple times likely has an interest in what I might have to offer - I have specifically included a contact section so people can reach out either via email, phone or using one of the social links provided. I also added a form so that a user could get in contact to discuss project ideas. 
 
 ---
+
+## Full Site & Feature Testing
+
+### Devices
+
+The site was built using VSCode on a desktop Windows based PC. When testing the site features and responsiveness I tried to use a range of devices I had at my disposal, as well as asking friends and peers to check the site.
+
+Devices I used to check personally are:
+
+* Primary Display
+    * AOC 24" 1080p Monitor
+
+* Laptop
+    * Lenovo Thinkpad 14inch
+
+* Mobile
+    * Google Pixel 7
+    * Google Pixel 7a
+    * Google Pixel 6
+    * Samsung s20
+
+I tested the site using Google Chrome, Microsoft Edge and Firefox on the Desktop & Laptop. Mobile devices are running Chrome, and I was able to use the Samsung Browser on the s20. 
+
 
 
