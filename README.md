@@ -228,18 +228,30 @@ As per the requirements for the project, the only languages that have been used 
 
 ### Deployment
 
-This site is deployed through Netlify - [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)
+~~This site is deployed through Netlify - [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)~~
+
 
 _When I attempted to deploy the site through GitHub pages, half of the content wasn't loading correctly. It seemed like the CSS file was missing/broken for the majority of the site. I did some research on Google for alternatives and Netlify was offered as one of them._
 
 To deploy the site Via Netlify using a GitHub repository:
 
-1. Login to GitHub (Or sign up).
-2. Login to Netlify (Or sign up).
-3. Link your GitHub account to your Netlify account.
-4. Find the "Sites" section on the main page and "Add new site".
-5. Select the repository you want to deploy.
-6. Configure the site and deploy it. You will be provided with a URL to the deployed site.
+1. ~~Login to GitHub (Or sign up).~~
+2. ~~Login to Netlify (Or sign up).~~
+3. ~~Link your GitHub account to your Netlify account.~~
+4. ~~Find the "Sites" section on the main page and "Add new site".~~
+5. ~~Select the repository you want to deploy.~~
+6. ~~Configure the site and deploy it. You will be provided with a URL to the deployed site.~~
+
+_This has been corrected since previous version of README.md - The page is now deployed using GitHub Pages. Use the following details to deploy_
+
+This site is now deployed via GitHub Pages - [Mark.dev](https://mnevison.github.io/milestone-p1/index.html)
+
+1. Login to Github (Or sign up).
+2. Go to the repository for this project, <https://github.com/mnevison/milestone-p1>
+3. Click on the settings button.
+4. Select "pages" in the navigation on the left side.
+5. From the source drop down, select the "main" branch and save.
+6. The site is now deployed! This process may take a few minutes, but you will see a "deployments" section on the lower right with your live link. 
 
 ### Local Development
 
@@ -295,9 +307,17 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
    - The issue was caused by accidentally applying styling to my generic "container" class. This caused additional margins and padding to appear where they weren't intended to be.
 
+   4. Form not submitting correctly.
+
+   - I was getting a 404 error popping up, rather than my response page. Reached out to Tutor support @ Code Institute for assistance and I basically hadn't included a relative file path for the response page. Updated the file path and everything works fine!
+
+   ![form-submit](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/form-submit-confirmation.png)
+
 ### Known Bugs
 
-- The only bug that still persists on the site is with my "form" element on my contacts page. I wanted the user to be able to input some information and a response would appear in a different tab with acknowledgement of the submission.
+- ~~The only bug that still persists on the site is with my "form" element on my contacts page. I wanted the user to be able to input some information and a response would appear in a different tab with acknowledgement of the submission.~~
+
+*This site now contains no known bugs*
 
 ![form-bug](https://github.com/mnevison/milestone-p1/blob/f0ee4deaf8b4bb4b0e4f3253293c4c727086892d/assets/docs/form-bug.png)
 
@@ -326,3 +346,4 @@ I would like to give special acknowledgements to:
 
 - UCP-15 Discord - For always providing feedback on my project.
 - Jubril Akolade - My Code Institute mentor.
+- Alan @ Code Institute Tutor Support - Helped me fix my final few little bugs on the project.
