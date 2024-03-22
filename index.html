@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- META TAGS -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mark.dev - Personal Portfolio website for a Full Stack Developer" />
+    <meta
+      name="description"
+      content="Mark.dev - Personal Portfolio website for a Full Stack Developer"
+    />
     <meta name="author" content="Mark Nevison" />
-    
+
+    <!-- Favicon & Apple Touch Icons -->
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -24,15 +31,26 @@
       href="assets/images/favicon-16x16.png"
     />
     <link rel="manifest" href="assets/docs/site.webmanifest" />
+
+    <!-- Fontawesome CDN -->
+
     <script
       src="https://kit.fontawesome.com/faddffa861.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Stylesheets  -->
+
     <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Milestone Project</title>
+
+    <!-- Browser Tab Title  -->
+
+    <title>Mark.dev</title>
   </head>
   <body>
+    <!-- Page Title & Navigation - Flex & Grid styled for responsiveness  -->
+
     <header>
       <h1 class="logo"><a href="index.html">Mark.dev</a></h1>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
@@ -48,36 +66,43 @@
         <span></span>
       </label>
     </header>
-    <section class="main-content container">
-      <div class="main__image">
-        <img
-          src="assets/images/profile-picture.jpeg"
-          alt="hollow knight coding"
-          class="profile__image"
-        />
-      </div>
-      <div class="color-wrapper">
-        <div class="profile-text">
-          <h2>Hello, I'm <span>Mark Nevison</span></h2>
-          <h3>Full Stack Developer</h3>
-          <p>
-            With two years of professional experience, specializing in web
-            development, project management, Agile methodology, and quality
-            assurance testing. Adept at coordinating effectively with
-            development teams, clients, and non-technical stakeholders to
-            execute complex web development projects.
-          </p>
-          <h2 class="tech-stack">Tech Stack</h2>
-          <ul class="tech-logo">
-            <li><i class="fa-brands fa-html5"></i></li>
-            <li><i class="fa-brands fa-css3-alt"></i></li>
-            <li><i class="fa-brands fa-js"></i></li>
-            <li><i class="fa-brands fa-python"></i></li>
-            <li><i class="fa-brands fa-react"></i></li>
-          </ul>
+
+    <!-- Profile image & Text to provide users with sites purpose -->
+
+    <main>
+      <section class="main-content container">
+        <div class="main__image">
+          <img
+            src="assets/images/profile-picture.jpeg"
+            alt="hollow knight coding"
+            class="profile__image"
+          />
         </div>
-      </div>
-    </section>
+        <div class="color-wrapper">
+          <div class="profile-text">
+            <h2>Hello, I'm <span>Mark Nevison</span></h2>
+            <h3>Full Stack Developer</h3>
+            <p>
+              With two years of professional experience, specializing in web
+              development, project management, Agile methodology, and quality
+              assurance testing. Adept at coordinating effectively with
+              development teams, clients, and non-technical stakeholders to
+              execute complex web development projects.
+            </p>
+            <h2 class="tech-stack">Tech Stack</h2>
+            <ul class="tech-logo">
+              <li><i class="fa-brands fa-html5"></i></li>
+              <li><i class="fa-brands fa-css3-alt"></i></li>
+              <li><i class="fa-brands fa-js"></i></li>
+              <li><i class="fa-brands fa-python"></i></li>
+              <li><i class="fa-brands fa-react"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer containing social links -->
 
     <footer class="footer container">
       <ul class="social-networks">
