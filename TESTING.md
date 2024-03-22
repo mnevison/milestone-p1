@@ -217,3 +217,6 @@ The Contact page does as the name suggests - provides users with either contact 
 | CV link (icon) | Click link and be redirected to a downloadable CV/resume                                            | Clicked link                         | New page opened in a new tab to the CV                                         |
 | Icon hover     | Change colour when hovered over                                                                     | Hovered over icon                    | Icon changed colour                                                            |
 | Contact Form   | User inputs information into the form and submits, gets a new window pop-up with an acknowledgement | Filled in form and hit submit button | Response opens in a new tab with intended message |
+
+
+*Contact form previously contained the only known bug on the site - That has since been corrected. Full details of the bug are in [README.md](https://github.com/mnevison/milestone-p1/blob/4bd920ec002936b6b68026a1ef539873389bde4e/README.md)*
