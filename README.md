@@ -307,7 +307,7 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
    - The issue was caused by accidentally applying styling to my generic "container" class. This caused additional margins and padding to appear where they weren't intended to be.
 
-   4. Form not submitting correctly.
+4. Form not submitting correctly.
 
    - I was getting a 404 error popping up, rather than my response page. Reached out to Tutor support @ Code Institute for assistance and I basically hadn't included a relative file path for the response page. Updated the file path and everything works fine!
 
