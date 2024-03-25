@@ -70,9 +70,8 @@
 
 @media (max-width: 768px) {
   .profile__image {
-    order: -1;
     height: 300px;
-    width: 300px;
+    width: auto;
     margin-bottom: 1em;
   }
 
@@ -102,9 +101,13 @@
     padding-left: 1em;
   }
 }
-@media (max-width: 948px) {
+
+@media (max-width: 1288px) {
   .main-content {
     flex-wrap: wrap;
+  }
+  .profile__image {
+    height: 30dvh;
   }
 }
 
