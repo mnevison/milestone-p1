@@ -2,7 +2,7 @@
 
 ![AmIResponsive Image](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/amiresponsive-siteimage.jpg)
 
-Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)
+Visit the deployed site: [Mark.dev](https://mnevison.github.io/milestone-p1/index.html)
 
 As someone who is wanting to progress forward in Tech, I heard many people speak about "portfolios" and how important they are when looking for jobs. I wanted to design myself a website that would give the user a bit of useful information about me, while also displaying my knowledge and abilities either through the site its self, or projects I outline within the pages of the site.
 

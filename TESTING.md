@@ -2,7 +2,7 @@
 
 ![AmIResponsive Image](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/amiresponsive-siteimage.jpg)
 
-Visit the deployed site: [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)
+Visit the deployed site: [Mark.dev](https://mnevison.github.io/milestone-p1/index.html)
 
 ---
 
