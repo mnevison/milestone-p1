@@ -443,6 +443,15 @@ input[type="submit"] {
 }
 
 /* Contact - Media */
+@media (max-width: 475px) {
+  .form-container {
+    max-width: 100%;
+  }
+  #message {
+    overflow: auto;
+    max-width: 100%;
+  }
+}
 
 @media (max-width: 768px) {
   .contact-heading {
