@@ -101,13 +101,18 @@
     padding-left: 1em;
   }
 }
-
+@media (max-width: 1184px) {
+  .color-wrapper {
+    padding-top: 4rem;
+    margin-top: 1rem;
+  }
+}
 @media (max-width: 1288px) {
   .main-content {
     flex-wrap: wrap;
   }
   .profile__image {
-    height: 30dvh;
+    height: 40dvh;
   }
 }
 
