@@ -483,3 +483,49 @@ input[type="submit"] {
 
 /* Formsubmit - Body  */
 
+.submit-container {
+  margin-top: 20rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.submit-content {
+  line-height: 3;
+  text-align: center;
+}
+
+.submit-content h1 {
+  color: var(--txt-primary);
+  font-size: 2.5rem;
+}
+.submit-content span {
+  -webkit-text-fill-color: #06426f;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--txt-primary);
+}
+
+.submit-content p {
+  color: var(--txt-secondary);
+  font-size: 2rem;
+}
+
+/* Formsubmit - Media  */
+
+@media (max-width: 1184px) {
+  .submit-container {
+    margin-top: 15rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .submit-container {
+    margin-top: 10rem;
+  }
+  .submit-content h1 {
+    font-size: 1.5rem;
+  }
+  .submit-content p {
+    font-size: 1rem;
+  }
+}
