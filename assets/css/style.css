@@ -443,7 +443,7 @@ input[type="submit"] {
 }
 
 /* Contact - Media */
-@media (max-width: 475px) {
+@media (max-width: 425px) {
   .form-container {
     max-width: 100%;
   }
