@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <!-- META TAGS -->
 
     <meta charset="UTF-8" />
@@ -50,7 +49,6 @@
     <title>Mark.dev - Contact</title>
   </head>
   <body>
-
     <!-- Page Title & Navigation - Flex & Grid styled for responsiveness  -->
 
     <header>
@@ -69,73 +67,14 @@
       </label>
     </header>
 
-    <!-- Contact information, download link to a CV and a contact form  -->
+    <!-- Response for when a user fills in the form on contact page  -->
 
     <main>
-      <section class="container contact-container">
-        <div class="contact-heading">
-          <h2>Contact <span>Me</span></h2>
-        </div>
-        <div class="contact-wrapper">
-          <div class="contact-box">
-            <h2 class="box-header">Contact Info</h2>
-            <ul>
-              <li>Email: Mark@dev.com</li>
-              <li>Mobile: +44776543210</li>
-              <li>Checkout my social links in the footer!</li>
-            </ul>
-            <p>
-              Got a idea for a project you would like to colab on? Fill in the
-              form!
-            </p>
-            <p>
-              If you would like a copy of my CV, please click here
-              <a
-                href="assets/docs/sample-cv.pdf"
-                target="_blank"
-                aria-label="CV download"
-                ><i class="fa-solid fa-download"></i
-              ></a>
-            </p>
-          </div>
-          <div class="form-container">
-            <form action="formsubmit.html" method="get" target="_blank">
-              <label for="name">Name:</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                pattern=".*\S+.*"
-                title="This field is required"
-              /><br /><br />
-
-              <label for="email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                pattern=".*\S+.*"
-                title="This field is required"
-              /><br /><br />
-
-              <label for="message">Project Idea:</label><br />
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                cols="50"
-                required
-                title="This field is required"
-              ></textarea
-              ><br /><br />
-
-              <input type="submit" value="Send" />
-            </form>
-          </div>
-        </div>
-      </section>
+      <div class="color-wrapper submit-content" >
+        <h1>Thank you for the <span>submission!</span></h1>
+        <p>I will get back to your shortly.</p>
+        <p>Please navigate back to the main page</p>
+      </div>
     </main>
 
     <!-- Footer containing social links -->

@@ -448,6 +448,7 @@ input[type="submit"] {
 }
 
 /* Contact - Media */
+
 @media (max-width: 425px) {
   .form-container {
     max-width: 100%;
@@ -479,3 +480,6 @@ input[type="submit"] {
     gap: 1em;
   }
 }
+
+/* Formsubmit - Body  */
+
