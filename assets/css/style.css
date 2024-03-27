@@ -510,6 +510,17 @@ input[type="submit"] {
   font-size: 2rem;
 }
 
+.submit-content a {
+  display: inline-block;
+  color: var(--txt-primary);
+  font-size: 2.5rem;
+}
+
+.submit-content a:hover {
+  cursor: pointer;
+  color: var(--txt-secondary);
+}
+
 /* Formsubmit - Media  */
 
 @media (max-width: 1184px) {
