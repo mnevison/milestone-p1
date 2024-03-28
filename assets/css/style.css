@@ -476,6 +476,18 @@ textarea:focus {
   color: var(--txt-secondary);
 }
 
+input[type="text"]:focus::placeholder {
+  color: transparent;
+}
+
+input[type="email"]:focus::placeholder {
+  color: transparent;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
+}
+
 /* Contact - Media */
 
 @media (max-width: 425px) {
