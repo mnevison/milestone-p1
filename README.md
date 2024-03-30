@@ -24,6 +24,8 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
     - [Experience](#experience)
     - [Projects](#projects)
     - [Contact](#contact)
+    - [Form Submit](#form-submit)
+    - [404](#404)
     - [Site Wide](#site-wide)
     - [Future Updates/Changes](#future-improvementschanges)
 
