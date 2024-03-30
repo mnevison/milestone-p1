@@ -212,11 +212,19 @@ The Contact page does as the name suggests - provides users with either contact 
 
 **Testing**
 
-| Feature        | Expectation                                                                                         | Test Performed                       | Outcome                                                                        |
-| -------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------ |
-| CV link (icon) | Click link and be redirected to a downloadable CV/resume                                            | Clicked link                         | New page opened in a new tab to the CV                                         |
-| Icon hover     | Change colour when hovered over                                                                     | Hovered over icon                    | Icon changed colour                                                            |
+| Feature        | Expectation                                                                                         | Test Performed                       | Outcome                                           |
+| -------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------- |
+| CV link (icon) | Click link and be redirected to a downloadable CV/resume                                            | Clicked link                         | New page opened in a new tab to the CV            |
+| Icon hover     | Change colour when hovered over                                                                     | Hovered over icon                    | Icon changed colour                               |
 | Contact Form   | User inputs information into the form and submits, gets a new window pop-up with an acknowledgement | Filled in form and hit submit button | Response opens in a new tab with intended message |
 
+### 404
 
-*Contact form previously contained the only known bug on the site - That has since been corrected. Full details of the bug are in [README.md](https://github.com/mnevison/milestone-p1/blob/4bd920ec002936b6b68026a1ef539873389bde4e/README.md)*
+The 404 page was added to offer the user a better experience when getting a 404 error on the site.
+
+| Feature                                                                                 | Expectation                                | Test Performed                                   | Outcome                             |
+| --------------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------ | ----------------------------------- |
+| 404 page appears when users try to navigate to a section of the site that doesn't exist | The custom 404 page loads                  | Navigated to area of the site that doesn't exist | Custom 404 page loaded as intended. |
+| Navigation back to home page                                                            | Click the icon and return to the home page | Clicked icon                                     | Was sent back to home page.         |
+
+_Contact form previously contained the only known bug on the site - That has since been corrected. Full details of the bug are in [README.md](https://github.com/mnevison/milestone-p1/blob/4bd920ec002936b6b68026a1ef539873389bde4e/README.md)_
