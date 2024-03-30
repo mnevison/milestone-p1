@@ -168,6 +168,12 @@ This page does what it says on the tin - it provides users with my contact infor
 
 ![contact-pg](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/contact-prev.png)
 
+## Form Submit
+
+This page was added to give the user confirmation that the form they filled in has been submitted successfully. Provides thanks and offers navigation back to the main site.
+
+![form-submit](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/formsubmit.png)
+
 ### Site Wide
 
 Each page within the site has a dedicated navbar and a footer. The navbar is responsive and changes depending on the screen size. The footer contains links to my various social accounts.
@@ -230,7 +236,6 @@ As per the requirements for the project, the only languages that have been used 
 
 ~~This site is deployed through Netlify - [Mark.dev](https://sprightly-pastelito-a5781b.netlify.app/)~~
 
-
 _When I attempted to deploy the site through GitHub pages, half of the content wasn't loading correctly. It seemed like the CSS file was missing/broken for the majority of the site. I did some research on Google for alternatives and Netlify was offered as one of them._
 
 To deploy the site Via Netlify using a GitHub repository:
@@ -251,7 +256,7 @@ This site is now deployed via GitHub Pages - [Mark.dev](https://mnevison.github.
 3. Click on the settings button.
 4. Select "pages" in the navigation on the left side.
 5. From the source drop down, select the "main" branch and save.
-6. The site is now deployed! This process may take a few minutes, but you will see a "deployments" section on the lower right with your live link. 
+6. The site is now deployed! This process may take a few minutes, but you will see a "deployments" section on the lower right with your live link.
 
 ### Local Development
 
@@ -317,7 +322,7 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
 - ~~The only bug that still persists on the site is with my "form" element on my contacts page. I wanted the user to be able to input some information and a response would appear in a different tab with acknowledgement of the submission.~~
 
-*This site now contains no known bugs*
+_This site now contains no known bugs_
 
 ![form-bug](https://github.com/mnevison/milestone-p1/blob/f0ee4deaf8b4bb4b0e4f3253293c4c727086892d/assets/docs/form-bug.png)
 
