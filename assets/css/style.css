@@ -522,7 +522,7 @@ textarea:focus::placeholder {
   }
 }
 
-/* Formsubmit - Body  */
+/* Formsubmit & 404 - Body  */
 
 .submit-container {
   margin-top: 20rem;
@@ -562,7 +562,7 @@ textarea:focus::placeholder {
   color: var(--txt-secondary);
 }
 
-/* Formsubmit - Media  */
+/* Formsubmit  & 404 - Media  */
 
 @media (max-width: 1184px) {
   .submit-container {
