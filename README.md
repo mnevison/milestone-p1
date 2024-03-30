@@ -174,6 +174,12 @@ This page was added to give the user confirmation that the form they filled in h
 
 ![form-submit](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/formsubmit.png)
 
+## 404
+
+Custom styled 404 page added. More user friendly than a standard 404 page, and it offers navigation back to the main site either via a link below the error text or using the navigation in the header.
+
+![404-page](https://github.com/mnevison/milestone-p1/blob/bedf6439507d4fe17fd4ce130bd03efa1c9b8010/assets/docs/404.png)
+
 ### Site Wide
 
 Each page within the site has a dedicated navbar and a footer. The navbar is responsive and changes depending on the screen size. The footer contains links to my various social accounts.
