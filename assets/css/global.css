@@ -67,6 +67,8 @@ header {
   color: var(--txt-secondary);
 }
 
+/* Kevin Powell tutorial used to build nav - Start (modified to match page theme) */
+
 .nav-toggle {
   position: absolute !important;
   top: -9999px !important;
@@ -205,6 +207,8 @@ nav a.active {
     transform: scale(1, 1);
   }
 }
+
+/* Kevin Powell tutorial used to build nav - End (modified to match page theme) */
 
 /* Footer */
 

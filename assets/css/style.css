@@ -259,6 +259,8 @@
   -webkit-text-stroke-color: var(--txt-primary);
 }
 
+/* Tutorial on CodePen for Card (lineked in Readme file) - Start */
+
 .card-wrapper {
   width: 15em;
   background: var(--bg-secondary);
@@ -312,6 +314,8 @@
   background-color: var(--txt-secondary);
   text-decoration: none;
 }
+
+/* Tutorial on CodePen for Card (lineked in Readme file) - End */
 
 .project-bottom {
   font-size: 2rem;
