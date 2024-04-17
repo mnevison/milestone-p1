@@ -83,7 +83,7 @@ As the page is meant to be a personal profile, I went with my favorite colour. W
 
 Initially I settled on the "Window Tide" scheme.
 
-![Colours](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/colour-scheme.jpg)
+![Colours](assets/docs/colour-scheme.jpg)
 
 However, early on in the development of the site I wanted a background image that would fulfil 2 roles:
 
