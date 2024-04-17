@@ -104,7 +104,7 @@ In my css file I declared some custom variables for my colouring scheme that was
 
 - There was also an RGBA variant of my primary background colour defined `rgba(3, 46, 81, 0.5)` into it's own function for use on backgrounds with text, as the opacity on this didn't have any impact on the text its self. Using the "opacity" function within css seemed to dull the text.
 
-![final-scheme](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/final-scheme.png)
+![final-scheme](assets/docs/final-scheme.png)
 
 ## Typography
 
@@ -112,13 +112,13 @@ I used Google Fonts for the text across the entire site.
 
 - The font I used was [Ubuntu](https://fonts.google.com/specimen/Ubuntu?preview.text=Mark.dev&query=Ubuntu). The font is very clean, very rounded and gives off friendly vibes. It has excellent readability across all the font sizes and weights across the site.
 
-![Poppins](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/ubuntu.png)
+![Poppins](assets/docs/ubuntu.png)
 
 ## Imagery
 
 - The background image I originally intended on using was removed towards the end of development, as it was suggested to be quite busy and caused issues with readability. Even though it is removed, it will feature in various images of the site, so this is a small sample of it.
 
-![background-image](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/bg-snippet.jpg)
+![background-image](assets/docs/bg-snippet.jpg)
 
 I maintained the colour scheme that the background inspired even after removal.
 
@@ -130,7 +130,7 @@ I maintained the colour scheme that the background inspired even after removal.
 
 Wireframes were created for various devices using Balsamiq
 
-![desktop-wf](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/main-wf.png) ![tablet-wf](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/tablet-wf.png) ![mobile-wf](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/mobile-wf.png)
+![desktop-wf](assets/docs/main-wf.png) ![tablet-wf](assets/docs/tablet-wf.png) ![mobile-wf](assets/docs/mobile-wf.png)
 
 ## Features
 
@@ -140,47 +140,47 @@ Each page is responsive across a range of popular devices.
 
 - Each page features a Favicon in the browser tab
 
-![favicon](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/favicon-preview.png)
+![favicon](assets/docs/favicon-preview.png)
 
 - The title of the page is displayed site wide and is also used to navigate back to the home page.
 
-![home-title](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/title-preview.png)
+![home-title](assets/docs/title-preview.png)
 
 ### Home Page
 
 The home page displays key information about the site and it's intended function. It provides basic information at a glance that is expended on the further into the site you go.
 
-![home-pg](https://github.com/mnevison/milestone-p1/blob/d3d03dfae777b889387c4d5babbb8194158b123d/assets/docs/amiresponsive-siteimage.jpg)
+![home-pg](assets/docs/amiresponsive-siteimage.jpg)
 
 ### Experience
 
 The experience page doubles down on some of the information provided in the home page, expanding on it and providing a lot more detail. This section of the site is intended to provide viewers with an overview of my past and present experiences, as well as going into further details about skills.
 
-![experience-pg](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/experience-prev.png)
+![experience-pg](assets/docs/experience-prev.png)
 
 ### Projects
 
 The projects page is intended to highlight and display the projects I would consider to be most note worthy. Each card has a brief description of the project, as well as icons outlining what languages/technologies have been used to make it. Links are provided to a live version of the project as well as the source code. I also included a link to my GitHub for a complete overview.
 
-![projects-pg](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/projects-prev.png)
+![projects-pg](assets/docs/projects-prev.png)
 
 ### Contact
 
 This page does what it says on the tin - it provides users with my contact information. I added a form as well which can be used to get in contact with a possible project idea. I also provided a link to a downloadable version of my CV/Resume.
 
-![contact-pg](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/contact-prev.png)
+![contact-pg](assets/docs/contact-prev.png)
 
 ## Form Submit
 
 This page was added to give the user confirmation that the form they filled in has been submitted successfully. Provides thanks and offers navigation back to the main site.
 
-![form-submit](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/formsubmit.png)
+![form-submit](assets/docs/formsubmit.png)
 
 ## 404
 
 Custom styled 404 page added. More user friendly than a standard 404 page, and it offers navigation back to the main site either via a link below the error text or using the navigation in the header.
 
-![404-page](https://github.com/mnevison/milestone-p1/blob/bedf6439507d4fe17fd4ce130bd03efa1c9b8010/assets/docs/404.png)
+![404-page](assets/docs/404.png)
 
 ### Site Wide
 
@@ -204,17 +204,17 @@ While building the website I have been mindful of accessability and have tried t
 - Using a primary font that was designed with accessability in mind, and also having a sans-serif font as a back-up.
 - Choosing colours that have a good contrast across the site.
 
-![access-card](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/access-card.png)
+![access-card](assets/docs/access-card.png)
 
 - At smaller screens, my linear gradient background would be a lot lighter at the top of the screen which is where the text seemed lightest also. To account for this I changed my colours in my break points to ensure everything was still clear.
 
 #### Normal Colour Scheme
 
-![normal-clr](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/normal-clr.png)
+![normal-clr](assets/docs/normal-clr.png)
 
 #### Responsive Colour Scheme
 
-![responsive-clr](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/reponsive-clr.png)
+![responsive-clr](assets/docs/reponsive-clr.png)
 
 ---
 
@@ -297,18 +297,18 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 1. Opacity issue.
 
    - Applied an opacity to my header and footer elements to allow some of the background to come through and it made the text fairly unreadable.
-     ![opacity-bug](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image.png)
+     ![opacity-bug](assets/docs/image.png)
 
    - To fix the issue I took my hex colour and converted it to rgba using [this](https://rgbacolorpicker.com/hex-to-rgba#google_vignette) website. With the opacity from the RGBA colour, the issue was fixed. Text showed up as intended.
-     ![opacity-fix](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-1.png)
+     ![opacity-fix](assets/docs/image-1.png)
 
 2. Layout!
 
    - As this is the first stand-alone project, layout was the thing that plagued me more than anything else. I wanted to do it using pure CSS rather than using a framework like Bootstrap, so working through the various layout tools on offer and deciding which one fit each situation was a challenge. Below are some images I captured while going through this process.
 
-   ![layout1](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-2.png)
-   ![layout2](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-3.png)
-   ![layout3](https://github.com/mnevison/milestone-p1/blob/44c31ded3b239d0ea259edb60973964a91be2254/assets/docs/image-4.png)
+   ![layout1](assets/docs/image-2.png)
+   ![layout2](assets/docs/image-3.png)
+   ![layout3](assets/docs/image-4.png)
 
    - While these issues are not necessarily "bugs", it was something that took up quite a bit of development time. I finally stuck to using flexbox, with a combination of flex-direction and flex-wrap to aid in responsiveness.
 
@@ -316,7 +316,7 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
    - I had an issue with vertical scroll bars showing up across all pages bar the home page.
 
-   ![scroll-bug](https://github.com/mnevison/milestone-p1/blob/d4dc41feadfa32ad558d734ccfe85e5c752b2f2a/assets/docs/scroll-bug.png)
+   ![scroll-bug](assets/docs/scroll-bug.png)
 
    - The issue was caused by accidentally applying styling to my generic "container" class. This caused additional margins and padding to appear where they weren't intended to be.
 
@@ -324,7 +324,7 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
    - I was getting a 404 error popping up, rather than my response page. Reached out to Tutor support @ Code Institute for assistance and I basically hadn't included a relative file path for the response page. Updated the file path and everything works fine!
 
-   ![form-submit](https://github.com/mnevison/milestone-p1/blob/main/assets/docs/form-submit-confirmation.png)
+   ![form-submit](assets/docs/form-submit-confirmation.png)
 
 ### Known Bugs
 
@@ -332,7 +332,7 @@ Please see [TESTING.md](https://github.com/mnevison/milestone-p1/blob/main/TESTI
 
 _This site now contains no known bugs_
 
-![form-bug](https://github.com/mnevison/milestone-p1/blob/f0ee4deaf8b4bb4b0e4f3253293c4c727086892d/assets/docs/form-bug.png)
+![form-bug](assets/docs/form-bug.png)
 
 ---
 
