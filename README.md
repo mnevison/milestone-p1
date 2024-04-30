@@ -29,7 +29,7 @@ As someone who is wanting to progress forward in Tech, I heard many people speak
     - [Site Wide](#site-wide)
     - [Future Updates/Changes](#future-improvementschanges)
 
-  - [Accessability](#accessability)
+  - [Accessability](#accessibility)
 
 - [How It Was Built](#how-it-was-built)
 
