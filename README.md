@@ -195,7 +195,7 @@ Some of these could be:
 1. Update the projects section with fresh content built specifically by myself.
 2. Add some interesting JavaScript components.
 
-### Accessability
+### Accessibility
 
 While building the website I have been mindful of accessability and have tried to make as much of the site as accessible as possible. I've done this by:
 
